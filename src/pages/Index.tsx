@@ -49,13 +49,7 @@ const Index = () => {
               </p>
             </div>
             <div className="flex flex-col items-center justify-center space-y-6">
-              <div className="w-full max-w-sm bg-gray-900 rounded-xl overflow-hidden shadow-2xl p-4">
-                <p className="text-gray-300 text-center text-sm mb-2">[INSERIR VIDEO VSL AQUI]</p>
-                <div className="aspect-video bg-gray-700 flex items-center justify-center rounded-lg">
-                  <span className="text-gray-400">VIDEO VSL</span>
-                </div>
-              </div>
-              {/* Removed the ebook image from here */}
+              {/* Removed the VSL video placeholder */}
             </div>
           </div>
 
@@ -75,29 +69,35 @@ const Index = () => {
             Você se identifica com alguma destas situações?
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-left mb-12">
-            <Card className="bg-gray-50 border-none shadow-lg rounded-2xl p-6">
-              <CardContent className="p-0">
-                <p className="text-lg md:text-xl mb-4">
-                  <span className="font-semibold text-darkGreen1">Dívidas que não param de crescer</span> e a sensação de estar sempre correndo atrás do prejuízo.
+            <Card className="bg-darkGreen2 border-none shadow-lg rounded-2xl p-6 text-gray-200">
+              <CardContent className="p-0 space-y-4">
+                <p className="flex items-start text-lg md:text-xl">
+                  <XCircle className="text-gold mr-3 mt-1 flex-shrink-0" size={20} />
+                  <span className="font-semibold text-gold">Dívidas que não param de crescer</span> e a sensação de estar sempre correndo atrás do prejuízo.
                 </p>
-                <p className="text-lg md:text-xl mb-4">
-                  <span className="font-semibold text-darkGreen1">Salário que nunca é suficiente</span> para cobrir as despesas básicas e realizar seus sonhos.
+                <p className="flex items-start text-lg md:text-xl">
+                  <XCircle className="text-gold mr-3 mt-1 flex-shrink-0" size={20} />
+                  <span className="font-semibold text-gold">Salário que nunca é suficiente</span> para cobrir as despesas básicas e realizar seus sonhos.
                 </p>
-                <p className="text-lg md:text-xl">
-                  <span className="font-semibold text-darkGreen1">Medo e ansiedade</span> ao pensar no futuro financeiro da sua família.
+                <p className="flex items-start text-lg md:text-xl">
+                  <XCircle className="text-gold mr-3 mt-1 flex-shrink-0" size={20} />
+                  <span className="font-semibold text-gold">Medo e ansiedade</span> ao pensar no futuro financeiro da sua família.
                 </p>
               </CardContent>
             </Card>
-            <Card className="bg-gray-50 border-none shadow-lg rounded-2xl p-6">
-              <CardContent className="p-0">
-                <p className="text-lg md:text-xl mb-4">
-                  <span className="font-semibold text-darkGreen1">Falta de clareza e direção</span> sobre como organizar suas finanças e sair da estagnação.
+            <Card className="bg-darkGreen2 border-none shadow-lg rounded-2xl p-6 text-gray-200">
+              <CardContent className="p-0 space-y-4">
+                <p className="flex items-start text-lg md:text-xl">
+                  <XCircle className="text-gold mr-3 mt-1 flex-shrink-0" size={20} />
+                  <span className="font-semibold text-gold">Falta de clareza e direção</span> sobre como organizar suas finanças e sair da estagnação.
                 </p>
-                <p className="text-lg md:text-xl mb-4">
-                  <span className="font-semibold text-darkGreen1">Sentimento de culpa ou vergonha</span> por não conseguir prosperar, mesmo se esforçando.
+                <p className="flex items-start text-lg md:text-xl">
+                  <XCircle className="text-gold mr-3 mt-1 flex-shrink-0" size={20} />
+                  <span className="font-semibold text-gold">Sentimento de culpa ou vergonha</span> por não conseguir prosperar, mesmo se esforçando.
                 </p>
-                <p className="text-lg md:text-xl">
-                  <span className="font-semibold text-darkGreen1">Desejo profundo de viver a abundância</span> prometida na Bíblia, mas sem saber por onde começar.
+                <p className="flex items-start text-lg md:text-xl">
+                  <XCircle className="text-gold mr-3 mt-1 flex-shrink-0" size={20} />
+                  <span className="font-semibold text-gold">Desejo profundo de viver a abundância</span> prometida na Bíblia, mas sem saber por onde começar.
                 </p>
               </CardContent>
             </Card>
