@@ -15,23 +15,26 @@ const Index = () => {
       {/* HERO SECTION */}
       <section className="bg-darkGreen1 text-white py-16 md:py-24 px-4 rounded-b-3xl shadow-lg">
         <div className="container mx-auto max-w-4xl text-center">
+          <h1 className="text-4xl md:text-6xl font-extrabold leading-tight mb-4 text-gold">
+            Desafio da Prosperidade Bíblica em 21 Dias
+          </h1>
+          <p className="text-xl md:text-2xl mb-8 font-light">
+            O método prático para sair da estagnação financeira e reconstruir sua vida com princípios bíblicos de abundância.
+          </p>
+
           {/* Nova imagem adicionada aqui */}
           <img
             src="/pb-5.png"
             alt="Desafio da Prosperidade Bíblica em 21 Dias"
             className="w-full max-w-full md:max-w-xl mx-auto mb-6 object-cover"
           />
-          {/* Título removido */}
-          <p className="text-xl md:text-2xl mb-8 font-light">
-            O método prático para sair da estagnação financeira e reconstruir sua vida com princípios bíblicos de abundância.
-          </p>
 
-          {/* Ebook Cover Image - Moved here for full width */}
-          <img
+          {/* Ebook Cover Image - REMOVIDA */}
+          {/* <img
             src="https://tonocosmos.com.br/wp-content/uploads/2025/04/4pb.jpg"
             alt="Capa do Ebook Desafio da Prosperidade Bíblica"
             className="w-full max-w-sm mx-auto mb-8 rounded-lg shadow-xl object-cover"
-          />
+          /> */}
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center mb-12">
             <div className="space-y-4 text-left">
