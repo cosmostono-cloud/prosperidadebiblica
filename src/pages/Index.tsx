@@ -339,9 +339,9 @@ const Index = () => {
           <div className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-[3rem] p-8 md:p-12 mb-12 max-w-2xl mx-auto shadow-2xl relative overflow-hidden">
             <p className="text-gray-400 line-through text-2xl mb-2">De R$ 147,00</p>
             <p className="text-white text-xl mb-4 font-medium">Por apenas:</p>
-            <div className="flex items-center justify-center mb-8">
+            <div className="flex items-center justify-center mb-8 animate-pulse-subtle">
               <span className="text-gold text-4xl font-bold mr-2">R$</span>
-              <span className="text-gold text-8xl md:text-9xl font-black tracking-tighter">44</span>
+              <span className="text-gold text-8xl md:text-9xl font-black tracking-tighter drop-shadow-[0_0_15px_rgba(244,196,48,0.5)]">44</span>
               <span className="text-gold text-3xl font-bold ml-1">,00</span>
             </div>
 
@@ -367,7 +367,7 @@ const Index = () => {
             <div className="mb-10 bg-gold/10 py-4 px-6 rounded-2xl border border-gold/20">
               <p className="text-gold font-bold text-lg flex items-center justify-center">
                 <Sparkles className="mr-2" size={20} />
-                + Bônus Surpresa Exclusivos para Novos Alunos!
+                +bônus Surpresa Exclusivos apenas para os próximos que adquirirem agora
               </p>
             </div>
 
@@ -417,6 +417,10 @@ const Index = () => {
           </h2>
           <Accordion type="single" collapsible className="w-full text-left space-y-4">
             <AccordionItem value="item-1" className="border border-gray-100 rounded-2xl px-6 bg-gray-50/50">
+              <AccordionTrigger className="text-lg md:text-xl font-bold text-darkBlue2 hover:no-underline py-6">
+                Funciona para quem tem muitas dívidas?
+              </AccordionTrigger>
+              <AccordionItem value="item-1" className="border border-gray-100 rounded-2xl px-6 bg-gray-50/50">
               <AccordionTrigger className="text-lg md:text-xl font-bold text-darkBlue2 hover:no-underline py-6">
                 Funciona para quem tem muitas dívidas?
               </AccordionTrigger>
