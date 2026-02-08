@@ -13,7 +13,7 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-white text-gray-800 font-sans">
       {/* HERO SECTION */}
-      <section className="bg-darkGreen1 text-white py-16 md:py-24 px-4 rounded-b-[3rem] shadow-2xl">
+      <section className="bg-darkBlue1 text-white py-16 md:py-24 px-4 rounded-b-[3rem] shadow-2xl">
         <div className="container mx-auto max-w-4xl text-center">
           <h1 className="text-4xl md:text-6xl font-extrabold leading-tight mb-6 text-gold drop-shadow-sm">
             Desafio da Prosperidade Bíblica em 21 Dias
@@ -55,7 +55,7 @@ const Index = () => {
 
           <Button
             onClick={scrollToCta}
-            className="bg-gold text-darkGreen1 hover:bg-yellow-400 text-lg md:text-2xl font-bold py-6 px-8 md:py-8 md:px-12 rounded-full shadow-2xl transition-all duration-300 transform hover:scale-105 w-full md:w-auto animate-pulse-subtle whitespace-normal h-auto"
+            className="bg-gold text-darkBlue1 hover:bg-yellow-400 text-lg md:text-2xl font-bold py-6 px-8 md:py-8 md:px-12 rounded-full shadow-2xl transition-all duration-300 transform hover:scale-105 w-full md:w-auto animate-pulse-subtle whitespace-normal h-auto"
           >
             Quero Minha Prosperidade Agora!
           </Button>
@@ -63,14 +63,14 @@ const Index = () => {
       </section>
 
       {/* BLOCO DE DOR */}
-      <section className="bg-white py-20 md:py-28 px-4">
+      <section className="bg-white pt-20 md:pt-28 pb-10 px-4">
         <div className="container mx-auto max-w-4xl text-center">
-          <h2 className="text-3xl md:text-5xl font-bold mb-12 text-darkGreen1 leading-tight">
+          <h2 className="text-3xl md:text-5xl font-bold mb-12 text-darkBlue1 leading-tight">
             Você se identifica com alguma destas situações?
           </h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-left mb-16">
-            <Card className="bg-darkGreen2 border-none shadow-xl rounded-3xl p-8 text-gray-100">
+            <Card className="bg-darkBlue2 border-none shadow-xl rounded-3xl p-8 text-gray-100">
               <CardContent className="p-0 space-y-6">
                 <div className="flex items-start">
                   <XCircle className="text-gold mr-4 mt-1 flex-shrink-0" size={24} />
@@ -89,7 +89,7 @@ const Index = () => {
               </CardContent>
             </Card>
 
-            <Card className="bg-darkGreen2 border-none shadow-xl rounded-3xl p-8 text-gray-100">
+            <Card className="bg-darkBlue2 border-none shadow-xl rounded-3xl p-8 text-gray-100">
               <CardContent className="p-0 space-y-6">
                 <div className="flex items-start">
                   <XCircle className="text-gold mr-4 mt-1 flex-shrink-0" size={24} />
@@ -109,13 +109,13 @@ const Index = () => {
             </Card>
           </div>
           
-          <div className="mb-12">
+          <div className="mb-0">
             <img
               src="/6-pb.png"
               alt="Transformação Financeira"
               className="w-full max-w-5xl mx-auto rounded-[2rem] shadow-2xl mb-10 border-8 border-gray-50"
             />
-            <p className="text-2xl md:text-3xl text-darkGreen2 font-bold max-w-2xl mx-auto leading-snug">
+            <p className="text-2xl md:text-3xl text-darkBlue2 font-bold max-w-2xl mx-auto leading-snug">
               Você não está sozinho(a). Existe um caminho bíblico para a sua transformação.
             </p>
           </div>
@@ -123,30 +123,30 @@ const Index = () => {
       </section>
 
       {/* PARA QUEM É / NÃO É */}
-      <section className="bg-gray-50 py-20 md:py-28 px-4">
+      <section className="bg-gray-50 py-12 md:py-16 px-4">
         <div className="container mx-auto max-w-5xl">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             <div className="bg-white p-10 rounded-[3rem] shadow-xl border-t-8 border-gold">
               <div className="flex items-center mb-8">
                 <Users className="text-gold mr-4" size={40} />
-                <h3 className="text-3xl font-bold text-darkGreen1">Para quem é:</h3>
+                <h3 className="text-3xl font-bold text-darkBlue1">Para quem é:</h3>
               </div>
               <ul className="space-y-6">
                 <li className="flex items-start">
-                  <CheckCircle className="text-green-600 mr-3 mt-1 flex-shrink-0" size={24} />
-                  <p className="text-lg text-gray-700">Pastores, padres e líderes que desejam ensinar sobre mordomia cristã.</p>
+                  <CheckCircle className="text-blue-600 mr-3 mt-1 flex-shrink-0" size={24} />
+                  <p className="text-lg text-gray-700">Qualquer pessoa cansada da escassez e pronta para a abundância bíblica.</p>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="text-green-600 mr-3 mt-1 flex-shrink-0" size={24} />
-                  <p className="text-lg text-gray-700">Estudiosos da Bíblia que buscam aplicar princípios práticos no dia a dia.</p>
-                </li>
-                <li className="flex items-start">
-                  <CheckCircle className="text-green-600 mr-3 mt-1 flex-shrink-0" size={24} />
+                  <CheckCircle className="text-blue-600 mr-3 mt-1 flex-shrink-0" size={24} />
                   <p className="text-lg text-gray-700">Aprendizes que querem prosperar de forma honesta e abençoada.</p>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="text-green-600 mr-3 mt-1 flex-shrink-0" size={24} />
-                  <p className="text-lg text-gray-700">Qualquer pessoa cansada da escassez e pronta para a abundância bíblica.</p>
+                  <CheckCircle className="text-blue-600 mr-3 mt-1 flex-shrink-0" size={24} />
+                  <p className="text-lg text-gray-700">Estudiosos da Bíblia que buscam aplicar princípios práticos no dia a dia.</p>
+                </li>
+                <li className="flex items-start">
+                  <CheckCircle className="text-blue-600 mr-3 mt-1 flex-shrink-0" size={24} />
+                  <p className="text-lg text-gray-700">Pastores, padres e líderes que desejam ensinar sobre mordomia cristã.</p>
                 </li>
               </ul>
             </div>
@@ -154,7 +154,7 @@ const Index = () => {
             <div className="bg-white p-10 rounded-[3rem] shadow-xl border-t-8 border-red-500">
               <div className="flex items-center mb-8">
                 <UserX className="text-red-500 mr-4" size={40} />
-                <h3 className="text-3xl font-bold text-darkGreen1">Para quem NÃO é:</h3>
+                <h3 className="text-3xl font-bold text-darkBlue1">Para quem NÃO é:</h3>
               </div>
               <ul className="space-y-6">
                 <li className="flex items-start">
@@ -180,31 +180,39 @@ const Index = () => {
       </section>
 
       {/* APRESENTAÇÃO DO MÉTODO */}
-      <section className="bg-darkGreen2 text-white py-20 md:py-28 px-4 rounded-[3rem] shadow-inner">
+      <section className="bg-darkBlue2 text-white py-20 md:py-28 px-4 rounded-[3rem] shadow-inner">
         <div className="container mx-auto max-w-5xl text-center">
           <h2 className="text-3xl md:text-5xl font-bold mb-10 text-gold">
             O Desafio da Prosperidade Bíblica
           </h2>
-          <p className="text-xl md:text-2xl mb-16 font-light text-gray-200 max-w-3xl mx-auto">
+          <p className="text-xl md:text-2xl mb-10 font-light text-gray-200 max-w-3xl mx-auto">
             Um método prático e transformador, projetado para te guiar passo a passo para fora da estagnação financeira.
           </p>
           
+          <div className="mb-16">
+            <img
+              src="/pb-9.png"
+              alt="Casal e Bíblia"
+              className="w-full max-w-3xl mx-auto rounded-[2rem] shadow-2xl border-4 border-gold/20"
+            />
+          </div>
+          
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
-            <Card className="bg-darkGreen1/50 border border-white/10 backdrop-blur-sm shadow-2xl rounded-3xl p-8">
+            <Card className="bg-darkBlue1/50 border border-white/10 backdrop-blur-sm shadow-2xl rounded-3xl p-8">
               <BookOpen className="text-gold mx-auto mb-6" size={56} />
               <CardTitle className="text-2xl font-bold text-white mb-4">O Que É?</CardTitle>
               <p className="text-gray-300 text-lg leading-relaxed">
                 Um guia diário de 21 dias com ensinamentos e exercícios práticos de sabedoria bíblica.
               </p>
             </Card>
-            <Card className="bg-darkGreen1/50 border border-white/10 backdrop-blur-sm shadow-2xl rounded-3xl p-8">
+            <Card className="bg-darkBlue1/50 border border-white/10 backdrop-blur-sm shadow-2xl rounded-3xl p-8">
               <ShieldCheck className="text-gold mx-auto mb-6" size={56} />
               <CardTitle className="text-2xl font-bold text-white mb-4">Como Funciona?</CardTitle>
               <p className="text-gray-300 text-lg leading-relaxed">
                 Cada dia uma nova lição e um desafio prático para implementar imediatamente.
               </p>
             </Card>
-            <Card className="bg-darkGreen1/50 border border-white/10 backdrop-blur-sm shadow-2xl rounded-3xl p-8">
+            <Card className="bg-darkBlue1/50 border border-white/10 backdrop-blur-sm shadow-2xl rounded-3xl p-8">
               <CheckCircle className="text-gold mx-auto mb-6" size={56} />
               <CardTitle className="text-2xl font-bold text-white mb-4">Resultados</CardTitle>
               <p className="text-gray-300 text-lg leading-relaxed">
@@ -215,7 +223,7 @@ const Index = () => {
 
           <Button
             onClick={scrollToCta}
-            className="bg-gold text-darkGreen1 hover:bg-yellow-400 text-lg md:text-xl font-bold py-6 px-8 rounded-full shadow-xl transition-all transform hover:scale-105 w-full md:w-auto h-auto"
+            className="bg-gold text-darkBlue1 hover:bg-yellow-400 text-lg md:text-xl font-bold py-6 px-8 rounded-full shadow-xl transition-all transform hover:scale-105 w-full md:w-auto h-auto"
           >
             Quero Começar Agora!
           </Button>
@@ -233,20 +241,20 @@ const Index = () => {
             />
           </div>
           
-          <h2 className="text-3xl md:text-5xl font-bold mb-16 text-darkGreen1">
+          <h2 className="text-3xl md:text-5xl font-bold mb-16 text-darkBlue1">
             O que você vai dominar em 21 dias:
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 text-left mb-20">
             <ul className="space-y-8">
               <li className="flex items-start">
                 <CheckCircle className="text-gold mr-4 mt-1 flex-shrink-0" size={28} />
-                <p className="text-xl text-darkGreen2 leading-relaxed">
+                <p className="text-xl text-darkBlue2 leading-relaxed">
                   <span className="font-bold">Organização Financeira:</span> Elimine o caos e tenha controle total do seu dinheiro.
                 </p>
               </li>
               <li className="flex items-start">
                 <CheckCircle className="text-gold mr-4 mt-1 flex-shrink-0" size={28} />
-                <p className="text-xl text-darkGreen2 leading-relaxed">
+                <p className="text-xl text-darkBlue2 leading-relaxed">
                   <span className="font-bold">Fim das Dívidas:</span> Um plano estratégico para se libertar do peso financeiro.
                 </p>
               </li>
@@ -254,13 +262,13 @@ const Index = () => {
             <ul className="space-y-8">
               <li className="flex items-start">
                 <CheckCircle className="text-gold mr-4 mt-1 flex-shrink-0" size={28} />
-                <p className="text-xl text-darkGreen2 leading-relaxed">
+                <p className="text-xl text-darkBlue2 leading-relaxed">
                   <span className="font-bold">Mentalidade de Fé:</span> Desenvolva uma visão de abundância alinhada com a Bíblia.
                 </p>
               </li>
               <li className="flex items-start">
                 <CheckCircle className="text-gold mr-4 mt-1 flex-shrink-0" size={28} />
-                <p className="text-xl text-darkGreen2 leading-relaxed">
+                <p className="text-xl text-darkBlue2 leading-relaxed">
                   <span className="font-bold">Multiplicação:</span> Aprenda a identificar e criar novas fontes de renda.
                 </p>
               </li>
@@ -270,7 +278,7 @@ const Index = () => {
 
         <div className="w-full">
           <div className="container mx-auto max-w-4xl text-center mb-10">
-            <h3 className="text-2xl md:text-4xl font-bold text-darkGreen1">Confira o poder do desafio na prática:</h3>
+            <h3 className="text-2xl md:text-4xl font-bold text-darkBlue1">Confira o poder do desafio na prática:</h3>
           </div>
           <img
             src="https://tonocosmos.com.br/wp-content/uploads/2025/04/3-pb.jpg"
@@ -281,10 +289,10 @@ const Index = () => {
       </section>
 
       {/* SEÇÃO DE BÔNUS */}
-      <section className="bg-darkGreen1 py-20 md:py-28 px-4 relative overflow-hidden">
+      <section className="bg-darkBlue1 py-20 md:py-28 px-4 relative overflow-hidden">
         <div className="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]"></div>
         <div className="container mx-auto max-w-5xl text-center relative z-10">
-          <div className="inline-block bg-gold text-darkGreen1 font-black px-8 py-3 rounded-full mb-8 animate-bounce shadow-2xl text-lg">
+          <div className="inline-block bg-gold text-darkBlue1 font-black px-8 py-3 rounded-full mb-8 animate-bounce shadow-2xl text-lg">
             OFERTA LIMITADA
           </div>
           <h2 className="text-4xl md:text-6xl font-black mb-6 text-white drop-shadow-lg">
@@ -294,7 +302,7 @@ const Index = () => {
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mb-16">
             <Card className="bg-white/5 backdrop-blur-md border-2 border-gold/30 shadow-2xl rounded-[2rem] p-10 relative overflow-hidden group hover:border-gold transition-all">
-              <div className="absolute top-0 right-0 bg-gold text-darkGreen1 px-6 py-2 font-bold text-sm rounded-bl-2xl">GRÁTIS</div>
+              <div className="absolute top-0 right-0 bg-gold text-darkBlue1 px-6 py-2 font-bold text-sm rounded-bl-2xl">GRÁTIS</div>
               <Gift className="text-gold mb-6 group-hover:scale-110 transition-transform" size={56} />
               <CardTitle className="text-2xl font-bold text-white mb-4">Ebook Q.I. Espiritual</CardTitle>
               <p className="text-lg text-gray-300 leading-relaxed">
@@ -303,7 +311,7 @@ const Index = () => {
             </Card>
             
             <Card className="bg-white/5 backdrop-blur-md border-2 border-gold/30 shadow-2xl rounded-[2rem] p-10 relative overflow-hidden group hover:border-gold transition-all">
-              <div className="absolute top-0 right-0 bg-gold text-darkGreen1 px-6 py-2 font-bold text-sm rounded-bl-2xl">GRÁTIS</div>
+              <div className="absolute top-0 right-0 bg-gold text-darkBlue1 px-6 py-2 font-bold text-sm rounded-bl-2xl">GRÁTIS</div>
               <Star className="text-gold mb-6 group-hover:scale-110 transition-transform" size={56} />
               <CardTitle className="text-2xl font-bold text-white mb-4">7 Passos para o Despertar</CardTitle>
               <p className="text-lg text-gray-300 leading-relaxed">
@@ -314,32 +322,15 @@ const Index = () => {
 
           <Button
             onClick={scrollToCta}
-            className="bg-gold text-darkGreen1 hover:bg-yellow-400 text-lg md:text-xl font-bold py-6 px-8 rounded-full shadow-xl transition-all transform hover:scale-105 w-full md:w-auto h-auto"
+            className="bg-gold text-darkBlue1 hover:bg-yellow-400 text-lg md:text-xl font-bold py-6 px-8 rounded-full shadow-xl transition-all transform hover:scale-105 w-full md:w-auto h-auto"
           >
             Quero Meus Bônus Agora!
           </Button>
         </div>
       </section>
 
-      {/* GARANTIA */}
-      <section className="bg-white py-20 md:py-28 px-4">
-        <div className="container mx-auto max-w-4xl text-center">
-          <div className="bg-darkGreen1 text-white rounded-[3rem] p-12 md:p-20 shadow-2xl relative overflow-hidden">
-            <div className="absolute top-0 left-0 w-full h-2 bg-gold"></div>
-            <ShieldCheck className="text-gold mx-auto mb-8" size={80} />
-            <h2 className="text-3xl md:text-5xl font-bold mb-8">Risco Zero: Garantia de 7 Dias</h2>
-            <p className="text-xl text-gray-200 leading-relaxed mb-10">
-              Temos plena confiança no método. Se em 7 dias você não sentir que o conteúdo é para você, devolvemos 100% do seu investimento. Sem perguntas, sem burocracia.
-            </p>
-            <div className="inline-flex items-center bg-white/10 px-8 py-4 rounded-full border border-white/20">
-              <span className="text-gold font-bold text-lg">Sua satisfação é nossa prioridade</span>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* CTA PRINCIPAL COM PREÇO */}
-      <section id="cta-section" className="bg-darkGreen1 text-white py-20 md:py-32 px-4 rounded-t-[4rem] shadow-2xl">
+      <section id="cta-section" className="bg-darkBlue1 text-white py-20 md:py-32 px-4 rounded-t-[4rem] shadow-2xl">
         <div className="container mx-auto max-w-4xl text-center">
           <h2 className="text-4xl md:text-6xl font-extrabold mb-10 leading-tight">
             Sua Jornada de <span className="text-gold">Sabedoria Financeira Bíblica</span>
@@ -382,7 +373,7 @@ const Index = () => {
 
             <Button
               onClick={() => window.open('https://pay.kiwify.com.br/QMKaBAc', '_blank')}
-              className="bg-gold text-darkGreen1 hover:bg-yellow-400 text-xl md:text-4xl font-black py-8 px-6 md:py-12 md:px-16 rounded-full shadow-2xl transition-all duration-300 transform hover:scale-110 w-full animate-pulse-subtle whitespace-normal h-auto leading-tight"
+              className="bg-gold text-darkBlue1 hover:bg-yellow-400 text-xl md:text-4xl font-black py-8 px-6 md:py-12 md:px-16 rounded-full shadow-2xl transition-all duration-300 transform hover:scale-110 w-full animate-pulse-subtle whitespace-normal h-auto leading-tight"
             >
               QUERO MEU ACESSO AGORA!
             </Button>
@@ -401,15 +392,32 @@ const Index = () => {
         </div>
       </section>
 
+      {/* GARANTIA (MOVIDA PARA BAIXO DO PREÇO) */}
+      <section className="bg-white py-20 md:py-28 px-4">
+        <div className="container mx-auto max-w-4xl text-center">
+          <div className="bg-darkBlue1 text-white rounded-[3rem] p-12 md:p-20 shadow-2xl relative overflow-hidden">
+            <div className="absolute top-0 left-0 w-full h-2 bg-gold"></div>
+            <ShieldCheck className="text-gold mx-auto mb-8" size={80} />
+            <h2 className="text-3xl md:text-5xl font-bold mb-8">Risco Zero: Garantia de 7 Dias</h2>
+            <p className="text-xl text-gray-200 leading-relaxed mb-10">
+              Temos plena confiança no método. Se em 7 dias você não sentir que o conteúdo é para você, devolvemos 100% do seu investimento. Sem perguntas, sem burocracia.
+            </p>
+            <div className="inline-flex items-center bg-white/10 px-8 py-4 rounded-full border border-white/20">
+              <span className="text-gold font-bold text-lg">Sua satisfação é nossa prioridade</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section className="bg-white py-20 md:py-28 px-4">
         <div className="container mx-auto max-w-3xl text-center">
-          <h2 className="text-3xl md:text-5xl font-bold mb-12 text-darkGreen1">
+          <h2 className="text-3xl md:text-5xl font-bold mb-12 text-darkBlue1">
             Dúvidas Frequentes
           </h2>
           <Accordion type="single" collapsible className="w-full text-left space-y-4">
             <AccordionItem value="item-1" className="border border-gray-100 rounded-2xl px-6 bg-gray-50/50">
-              <AccordionTrigger className="text-lg md:text-xl font-bold text-darkGreen2 hover:no-underline py-6">
+              <AccordionTrigger className="text-lg md:text-xl font-bold text-darkBlue2 hover:no-underline py-6">
                 Funciona para quem tem muitas dívidas?
               </AccordionTrigger>
               <AccordionContent className="text-lg text-gray-600 pb-6 leading-relaxed">
@@ -417,7 +425,7 @@ const Index = () => {
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-2" className="border border-gray-100 rounded-2xl px-6 bg-gray-50/50">
-              <AccordionTrigger className="text-lg md:text-xl font-bold text-darkGreen2 hover:no-underline py-6">
+              <AccordionTrigger className="text-lg md:text-xl font-bold text-darkBlue2 hover:no-underline py-6">
                 O conteúdo é digital ou físico?
               </AccordionTrigger>
               <AccordionContent className="text-lg text-gray-600 pb-6 leading-relaxed">
@@ -425,7 +433,7 @@ const Index = () => {
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-3" className="border border-gray-100 rounded-2xl px-6 bg-gray-50/50">
-              <AccordionTrigger className="text-lg md:text-xl font-bold text-darkGreen2 hover:no-underline py-6">
+              <AccordionTrigger className="text-lg md:text-xl font-bold text-darkBlue2 hover:no-underline py-6">
                 Quanto tempo preciso dedicar por dia?
               </AccordionTrigger>
               <AccordionContent className="text-lg text-gray-600 pb-6 leading-relaxed">
@@ -437,7 +445,7 @@ const Index = () => {
       </section>
 
       {/* RODAPÉ */}
-      <footer className="bg-darkGreen2 text-gray-400 py-16 px-4 border-t border-white/5">
+      <footer className="bg-darkBlue2 text-gray-400 py-16 px-4 border-t border-white/5">
         <div className="container mx-auto max-w-4xl text-center space-y-8">
           <div className="flex justify-center items-center space-x-2 text-gold font-bold text-xl">
             <ShieldCheck size={24} />
