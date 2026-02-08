@@ -29,13 +29,6 @@ const Index = () => {
             className="w-full max-w-full md:max-w-xl mx-auto mb-6 object-cover"
           />
 
-          {/* Ebook Cover Image - REMOVIDA */}
-          {/* <img
-            src="https://tonocosmos.com.br/wp-content/uploads/2025/04/4pb.jpg"
-            alt="Capa do Ebook Desafio da Prosperidade Bíblica"
-            className="w-full max-w-sm mx-auto mb-8 rounded-lg shadow-xl object-cover"
-          /> */}
-
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center mb-12">
             <div className="space-y-4 text-left">
               <p className="flex items-center text-lg md:text-xl">
@@ -62,7 +55,7 @@ const Index = () => {
 
           <Button
             onClick={scrollToCta}
-            className="bg-gold text-darkGreen1 hover:bg-yellow-400 text-xl md:text-2xl font-bold py-4 px-10 rounded-full shadow-xl transition-all duration-300 transform hover:scale-105 w-full md:w-auto block mx-auto text-center animate-pulse-subtle"
+            className="bg-gold text-darkGreen1 hover:bg-yellow-400 text-xl md:text-2xl font-bold py-4 px-10 rounded-full shadow-xl transition-all duration-300 transform hover:scale-105 w-full md:w-auto block mx-auto text-center animate-pulse-subtle flex justify-center items-center"
           >
             Quero Minha Prosperidade Agora!
           </Button>
@@ -78,33 +71,33 @@ const Index = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-left mb-12">
             <Card className="bg-darkGreen2 border-none shadow-lg rounded-2xl p-6 text-gray-200">
               <CardContent className="p-0 space-y-4">
-                <p className="flex items-start text-lg md:text-xl">
+                <p className="flex items-start text-lg md:text-xl leading-relaxed">
                   <XCircle className="text-gold mr-3 mt-1 flex-shrink-0" size={20} />
-                  <span className="font-semibold">Dívidas que não param de crescer</span> e a sensação de estar sempre correndo atrás do prejuízo.
+                  <span className="font-semibold text-gold">Dívidas que não param de crescer</span> e a sensação de estar sempre correndo atrás do prejuízo.
                 </p>
-                <p className="flex items-start text-lg md:text-xl">
+                <p className="flex items-start text-lg md:text-xl leading-relaxed">
                   <XCircle className="text-gold mr-3 mt-1 flex-shrink-0" size={20} />
-                  <span className="font-semibold">Salário que nunca é suficiente</span> para cobrir as despesas básicas e realizar seus sonhos.
+                  <span className="font-semibold text-gold">Salário que nunca é suficiente</span> para cobrir as despesas básicas e realizar seus sonhos.
                 </p>
-                <p className="flex items-start text-lg md:text-xl">
+                <p className="flex items-start text-lg md:text-xl leading-relaxed">
                   <XCircle className="text-gold mr-3 mt-1 flex-shrink-0" size={20} />
-                  <span className="font-semibold">Medo e ansiedade</span> ao pensar no futuro financeiro da sua família.
+                  <span className="font-semibold text-gold">Medo e ansiedade</span> ao pensar no futuro financeiro da sua família.
                 </p>
               </CardContent>
             </Card>
             <Card className="bg-darkGreen2 border-none shadow-lg rounded-2xl p-6 text-gray-200">
               <CardContent className="p-0 space-y-4">
-                <p className="flex items-start text-lg md:text-xl">
+                <p className="flex items-start text-lg md:text-xl leading-relaxed">
                   <XCircle className="text-gold mr-3 mt-1 flex-shrink-0" size={20} />
-                  <span className="font-semibold">Falta de clareza e direção</span> sobre como organizar suas finanças e sair da estagnação.
+                  <span className="font-semibold text-gold">Falta de clareza e direção</span> sobre como organizar suas finanças e sair da estagnação.
                 </p>
-                <p className="flex items-start text-lg md:text-xl">
+                <p className="flex items-start text-lg md:text-xl leading-relaxed">
                   <XCircle className="text-gold mr-3 mt-1 flex-shrink-0" size={20} />
-                  <span className="font-semibold">Sentimento de culpa ou vergonha</span> por não conseguir prosperar, mesmo se esforçando.
+                  <span className="font-semibold text-gold">Sentimento de culpa ou vergonha</span> por não conseguir prosperar, mesmo se esforçando.
                 </p>
-                <p className="flex items-start text-lg md:text-xl">
+                <p className="flex items-start text-lg md:text-xl leading-relaxed">
                   <XCircle className="text-gold mr-3 mt-1 flex-shrink-0" size={20} />
-                  <span className="font-semibold">Desejo profundo de viver a abundância</span> prometida na Bíblia, mas sem saber por onde começar.
+                  <span className="font-semibold text-gold">Desejo profundo de viver a abundância</span> prometida na Bíblia, mas sem saber por onde começar.
                 </p>
               </CardContent>
             </Card>
@@ -167,37 +160,37 @@ const Index = () => {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-left mb-12">
             <ul className="space-y-4 text-lg md:text-xl text-darkGreen2">
-              <li className="flex items-start">
+              <li className="flex items-start leading-relaxed">
                 <CheckCircle className="text-gold mr-3 mt-1 flex-shrink-0" size={20} />
                 <span className="font-semibold">Organizar suas finanças</span> de forma simples e eficaz, eliminando o caos.
               </li>
-              <li className="flex items-start">
+              <li className="flex items-start leading-relaxed">
                 <CheckCircle className="text-gold mr-3 mt-1 flex-shrink-0" size={20} />
                 Criar um <span className="font-semibold">plano estratégico para quitar dívidas</span> e se libertar.
               </li>
-              <li className="flex items-start">
+              <li className="flex items-start leading-relaxed">
                 <CheckCircle className="text-gold mr-3 mt-1 flex-shrink-0" size={20} />
                 Desenvolver uma <span className="font-semibold">mentalidade de abundância</span> e fé inabalável.
               </li>
-              <li className="flex items-start">
+              <li className="flex items-start leading-relaxed">
                 <CheckCircle className="text-gold mr-3 mt-1 flex-shrink-0" size={20} />
                 Identificar e <span className="font-semibold">multiplicar fontes de renda extra</span>, com sabedoria.
               </li>
             </ul>
             <ul className="space-y-4 text-lg md:text-xl text-darkGreen2">
-              <li className="flex items-start">
+              <li className="flex items-start leading-relaxed">
                 <CheckCircle className="text-gold mr-3 mt-1 flex-shrink-0" size={20} />
                 Elaborar um <span className="font-semibold">planejamento financeiro</span> que realmente funciona para você.
               </li>
-              <li className="flex items-start">
+              <li className="flex items-start leading-relaxed">
                 <CheckCircle className="text-gold mr-3 mt-1 flex-shrink-0" size={20} />
                 Aplicar <span className="font-semibold">princípios bíblicos de mordomia</span> e generosidade.
               </li>
-              <li className="flex items-start">
+              <li className="flex items-start leading-relaxed">
                 <CheckCircle className="text-gold mr-3 mt-1 flex-shrink-0" size={20} />
                 Construir um <span className="font-semibold">plano de 90 dias</span> para sustentar sua prosperidade.
               </li>
-              <li className="flex items-start">
+              <li className="flex items-start leading-relaxed">
                 <CheckCircle className="text-gold mr-3 mt-1 flex-shrink-0" size={20} />
                 Viver com <span className="font-semibold">paz e segurança</span> em todas as suas finanças.
               </li>
@@ -369,7 +362,7 @@ const Index = () => {
           </p>
           <Button
             onClick={() => alert("Redirecionar para o checkout!")}
-            className="bg-gold text-darkGreen1 hover:bg-yellow-400 text-2xl md:text-3xl font-bold py-5 px-12 rounded-full shadow-xl transition-all duration-300 transform hover:scale-105 w-full md:w-auto block mx-auto text-center animate-pulse-subtle"
+            className="bg-gold text-darkGreen1 hover:bg-yellow-400 text-2xl md:text-3xl font-bold py-5 px-12 rounded-full shadow-xl transition-all duration-300 transform hover:scale-105 w-full md:w-auto block mx-auto text-center animate-pulse-subtle flex justify-center items-center"
           >
             SIM! Quero Minha Prosperidade Agora!
           </Button>
@@ -441,7 +434,7 @@ const Index = () => {
           </p>
           <Button
             onClick={scrollToCta}
-            className="bg-gold text-darkGreen1 hover:bg-yellow-400 text-2xl md:text-3xl font-bold py-5 px-12 rounded-full shadow-xl transition-all duration-300 transform hover:scale-105 w-full md:w-auto block mx-auto text-center animate-pulse-subtle"
+            className="bg-gold text-darkGreen1 hover:bg-yellow-400 text-2xl md:text-3xl font-bold py-5 px-12 rounded-full shadow-xl transition-all duration-300 transform hover:scale-105 w-full md:w-auto block mx-auto text-center animate-pulse-subtle flex justify-center items-center"
           >
             Quero Transformar Minhas Finanças!
           </Button>
