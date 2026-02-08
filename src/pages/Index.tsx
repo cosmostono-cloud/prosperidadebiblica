@@ -2,7 +2,7 @@ import React from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
-import { CheckCircle, XCircle, BookOpen, ShieldCheck, Mail, Copyright } from "lucide-react";
+import { CheckCircle, XCircle, BookOpen, ShieldCheck, Mail, Copyright, Gift, Star } from "lucide-react";
 import { MadeWithDyad } from "@/components/made-with-dyad";
 
 const Index = () => {
@@ -22,7 +22,6 @@ const Index = () => {
             O método prático para sair da estagnação financeira e reconstruir sua vida com princípios bíblicos de abundância.
           </p>
 
-          {/* Nova imagem adicionada aqui */}
           <img
             src="/pb-5.png"
             alt="Desafio da Prosperidade Bíblica em 21 Dias"
@@ -47,9 +46,6 @@ const Index = () => {
                 <CheckCircle className="text-gold mr-3 flex-shrink-0" size={24} />
                 Viva uma vida de propósito e abundância
               </p>
-            </div>
-            <div className="flex flex-col items-center justify-center space-y-6">
-              {/* Removed the VSL video placeholder */}
             </div>
           </div>
 
@@ -120,6 +116,15 @@ const Index = () => {
               </CardContent>
             </Card>
           </div>
+          
+          <div className="mb-8">
+            <img
+              src="/6-pb.png"
+              alt="Transformação Financeira"
+              className="w-full max-w-2xl mx-auto rounded-2xl shadow-xl mb-6"
+            />
+          </div>
+
           <p className="text-xl md:text-2xl text-darkGreen2 font-medium">
             Você não está sozinho(a). Milhares de cristãos enfrentam desafios financeiros, mas existe um caminho para a transformação.
           </p>
@@ -173,52 +178,54 @@ const Index = () => {
       {/* O QUE A PESSOA VAI APRENDER */}
       <section className="bg-white py-16 md:py-24 px-4">
         <div className="container mx-auto max-w-4xl text-center">
-          <h2 className="text-3xl md:text-5xl font-bold mb-8 text-darkGreen1">
+          <h2 className="text-3xl md:text-5xl font-bold mb-12 text-darkGreen1">
             Nesta jornada de 21 dias, você vai aprender a:
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-left mb-12">
-            <ul className="space-y-4 text-lg md:text-xl text-darkGreen2">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-10 text-left mb-16">
+            <ul className="space-y-6 text-lg md:text-xl text-darkGreen2">
               <li className="flex items-start leading-relaxed">
-                <CheckCircle className="text-gold mr-3 mt-1 flex-shrink-0" size={20} />
-                <span className="font-semibold">Organizar suas finanças</span> de forma simples e eficaz, eliminando o caos.
+                <CheckCircle className="text-gold mr-4 mt-1 flex-shrink-0" size={24} />
+                <span><span className="font-bold">Organizar suas finanças</span> de forma simples e eficaz, eliminando o caos de uma vez por todas.</span>
               </li>
               <li className="flex items-start leading-relaxed">
-                <CheckCircle className="text-gold mr-3 mt-1 flex-shrink-0" size={20} />
-                Criar um <span className="font-semibold">plano estratégico para quitar dívidas</span> e se libertar.
+                <CheckCircle className="text-gold mr-4 mt-1 flex-shrink-0" size={24} />
+                <span>Criar um <span className="font-bold">plano estratégico para quitar dívidas</span> e se libertar do peso financeiro.</span>
               </li>
               <li className="flex items-start leading-relaxed">
-                <CheckCircle className="text-gold mr-3 mt-1 flex-shrink-0" size={20} />
-                Desenvolver uma <span className="font-semibold">mentalidade de abundância</span> e fé inabalável.
+                <CheckCircle className="text-gold mr-4 mt-1 flex-shrink-0" size={24} />
+                <span>Desenvolver uma <span className="font-bold">mentalidade de abundância</span> e fé inabalável para o seu futuro.</span>
               </li>
               <li className="flex items-start leading-relaxed">
-                <CheckCircle className="text-gold mr-3 mt-1 flex-shrink-0" size={20} />
-                Identificar e <span className="font-semibold">multiplicar fontes de renda extra</span>, com sabedoria.
+                <CheckCircle className="text-gold mr-4 mt-1 flex-shrink-0" size={24} />
+                <span>Identificar e <span className="font-bold">multiplicar fontes de renda extra</span>, com sabedoria e propósito.</span>
               </li>
             </ul>
-            <ul className="space-y-4 text-lg md:text-xl text-darkGreen2">
+            <ul className="space-y-6 text-lg md:text-xl text-darkGreen2">
               <li className="flex items-start leading-relaxed">
-                <CheckCircle className="text-gold mr-3 mt-1 flex-shrink-0" size={20} />
-                <span className="font-semibold">Elaborar um planejamento financeiro</span> que realmente funciona para você.
+                <CheckCircle className="text-gold mr-4 mt-1 flex-shrink-0" size={24} />
+                <span><span className="font-bold">Elaborar um planejamento financeiro</span> que realmente funciona para a sua realidade atual.</span>
               </li>
               <li className="flex items-start leading-relaxed">
-                <CheckCircle className="text-gold mr-3 mt-1 flex-shrink-0" size={20} />
-                Aplicar <span className="font-semibold">princípios bíblicos de mordomia</span> e generosidade.
+                <CheckCircle className="text-gold mr-4 mt-1 flex-shrink-0" size={24} />
+                <span>Aplicar <span className="font-bold">princípios bíblicos de mordomia</span> e generosidade para atrair bênçãos.</span>
               </li>
               <li className="flex items-start leading-relaxed">
-                <CheckCircle className="text-gold mr-3 mt-1 flex-shrink-0" size={20} />
-                Construir um <span className="font-semibold">plano de 90 dias</span> para sustentar sua prosperity.
+                <CheckCircle className="text-gold mr-4 mt-1 flex-shrink-0" size={24} />
+                <span>Construir um <span className="font-bold">plano de 90 dias</span> para sustentar sua prosperidade a longo prazo.</span>
               </li>
               <li className="flex items-start leading-relaxed">
-                <CheckCircle className="text-gold mr-3 mt-1 flex-shrink-0" size={20} />
-                Viver com <span className="font-semibold">paz e segurança</span> em todas as suas finanças.
+                <CheckCircle className="text-gold mr-4 mt-1 flex-shrink-0" size={24} />
+                <span>Viver com <span className="font-bold">paz e segurança</span> em todas as suas decisões financeiras.</span>
               </li>
             </ul>
           </div>
-          <div className="w-full max-w-md mx-auto bg-gray-100 rounded-2xl p-6 shadow-inner mt-8">
+          
+          <div className="w-full max-w-5xl mx-auto mt-12">
+            <h3 className="text-2xl md:text-3xl font-bold text-darkGreen1 mb-6">Confira o poder do desafio na prática:</h3>
             <img
               src="https://tonocosmos.com.br/wp-content/uploads/2025/04/3-pb.jpg"
-              alt="Imagem Ilustrativa"
-              className="w-full h-auto rounded-lg object-cover"
+              alt="Poder do Desafio"
+              className="w-full h-auto rounded-3xl shadow-2xl object-cover"
             />
           </div>
         </div>
@@ -231,12 +238,12 @@ const Index = () => {
             Este Desafio É Para Você Se...
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-            <Card className="bg-darkGreen2 border-none shadow-xl rounded-2xl p-6 text-left text-gray-200">
+            <Card className="bg-darkGreen2 border-none shadow-xl rounded-2xl p-6 text-left text-white">
               <CardHeader className="p-0 mb-4">
                 <CheckCircle className="text-gold mr-3 mb-2" size={32} />
                 <CardTitle className="text-2xl font-semibold text-white">É Para Você!</CardTitle>
               </CardHeader>
-              <CardContent className="p-0 space-y-3 text-lg font-light">
+              <CardContent className="p-0 space-y-3 text-lg font-light text-gray-200">
                 <p className="flex items-start">
                   <span className="mr-2 text-gold">✔</span> Você é cristão e busca alinhar suas finanças com a fé.
                 </p>
@@ -251,12 +258,12 @@ const Index = () => {
                 </p>
               </CardContent>
             </Card>
-            <Card className="bg-gray-800 border-none shadow-xl rounded-2xl p-6 text-left text-gray-200">
+            <Card className="bg-gray-800 border-none shadow-xl rounded-2xl p-6 text-left text-white">
               <CardHeader className="p-0 mb-4">
                 <XCircle className="text-red-500 mr-3 mb-2" size={32} />
                 <CardTitle className="text-2xl font-semibold text-white">Não É Para Você Se...</CardTitle>
               </CardHeader>
-              <CardContent className="p-0 space-y-3 text-lg font-light">
+              <CardContent className="p-0 space-y-3 text-lg font-light text-gray-200">
                 <p className="flex items-start">
                   <span className="mr-2 text-red-500">✖</span> Você busca "fórmulas mágicas" ou enriquecimento rápido.
                 </p>
@@ -287,12 +294,46 @@ const Index = () => {
           <p className="text-lg md:text-xl text-darkGreen2 font-light">
             Acreditamos que a verdadeira prosperidade vai além do dinheiro, abrangendo paz, propósito e a capacidade de abençoar outros. Este ebook é uma ferramenta para te capacitar nessa jornada.
           </p>
-          <div className="w-full max-w-md mx-auto bg-gray-100 rounded-2xl p-6 shadow-inner mt-8">
+          <div className="w-full max-w-2xl mx-auto mt-10">
             <img
-              src="https://tonocosmos.com.br/wp-content/uploads/2025/04/2-pb.jpg"
-              alt="Imagem de Autoridade/Testemunho"
-              className="w-full h-auto rounded-lg object-cover"
+              src="/pb-8.png"
+              alt="Autoridade e Verdade"
+              className="w-full h-auto rounded-2xl shadow-2xl object-cover"
             />
+          </div>
+        </div>
+      </section>
+
+      {/* SEÇÃO DE BÔNUS */}
+      <section className="bg-gray-50 py-16 md:py-24 px-4">
+        <div className="container mx-auto max-w-4xl text-center">
+          <h2 className="text-3xl md:text-5xl font-bold mb-4 text-darkGreen1">
+            Bônus Exclusivos Para Você!
+          </h2>
+          <p className="text-xl text-gray-600 mb-12">Ao garantir o desafio hoje, você também leva:</p>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <Card className="bg-white border-2 border-gold shadow-xl rounded-2xl p-8 relative overflow-hidden">
+              <div className="absolute top-0 right-0 bg-gold text-darkGreen1 px-4 py-1 font-bold text-sm rounded-bl-lg">GRÁTIS</div>
+              <CardHeader className="p-0 mb-4">
+                <Gift className="text-gold mb-3" size={40} />
+                <CardTitle className="text-2xl font-bold text-darkGreen1">Ebook Q.I. Espiritual</CardTitle>
+              </CardHeader>
+              <CardContent className="p-0 text-lg text-gray-700">
+                Aprenda a desenvolver sua inteligência espiritual para tomar decisões mais sábias e alinhadas com o propósito divino.
+              </CardContent>
+            </Card>
+            
+            <Card className="bg-white border-2 border-gold shadow-xl rounded-2xl p-8 relative overflow-hidden">
+              <div className="absolute top-0 right-0 bg-gold text-darkGreen1 px-4 py-1 font-bold text-sm rounded-bl-lg">GRÁTIS</div>
+              <CardHeader className="p-0 mb-4">
+                <Star className="text-gold mb-3" size={40} />
+                <CardTitle className="text-2xl font-bold text-darkGreen1">7 Passos para o Despertar Espiritual</CardTitle>
+              </CardHeader>
+              <CardContent className="p-0 text-lg text-gray-700">
+                Um guia prático para renovar sua fé e se conectar profundamente com a fonte de toda a abundância.
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>
@@ -304,12 +345,12 @@ const Index = () => {
             O Que Você Receberá Imediatamente:
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-            <Card className="bg-darkGreen1 border-none shadow-xl rounded-2xl p-6 text-left text-gray-200">
+            <Card className="bg-darkGreen1 border-none shadow-xl rounded-2xl p-6 text-left text-white">
               <CardHeader className="p-0 mb-4">
                 <BookOpen className="text-gold mr-3 mb-2" size={32} />
                 <CardTitle className="text-2xl font-semibold text-white">Ebook Principal</CardTitle>
               </CardHeader>
-              <CardContent className="p-0 space-y-3 text-lg font-light">
+              <CardContent className="p-0 space-y-3 text-lg font-light text-gray-200">
                 <p className="flex items-start">
                   <span className="mr-2 text-gold">✔</span> O "Desafio da Prosperidade Bíblica em 21 Dias" completo.
                 </p>
@@ -324,23 +365,23 @@ const Index = () => {
                 </p>
               </CardContent>
             </Card>
-            <Card className="bg-darkGreen1 border-none shadow-xl rounded-2xl p-6 text-left text-gray-200">
+            <Card className="bg-darkGreen1 border-none shadow-xl rounded-2xl p-6 text-left text-white">
               <CardHeader className="p-0 mb-4">
                 <CheckCircle className="text-gold mr-3 mb-2" size={32} />
                 <CardTitle className="text-2xl font-semibold text-white">Bônus Exclusivo</CardTitle>
               </CardHeader>
-              <CardContent className="p-0 space-y-3 text-lg font-light">
+              <CardContent className="p-0 space-y-3 text-lg font-light text-gray-200">
                 <p className="flex items-start">
-                  <span className="mr-2 text-gold">✔</span> [BÔNUS 1]: Guia Rápido para Multiplicar sua Renda.
+                  <span className="mr-2 text-gold">✔</span> [BÔNUS 1]: Ebook Q.I. Espiritual.
                 </p>
                 <p className="flex items-start">
-                  <span className="mr-2 text-gold">✔</span> [BÔNUS 2]: Planilha de Orçamento Familiar Cristão.
+                  <span className="mr-2 text-gold">✔</span> [BÔNUS 2]: 7 Passos para o Despertar Espiritual.
                 </p>
                 <p className="flex items-start">
-                  <span className="mr-2 text-gold">✔</span> [BÔNUS 3]: Acesso a um Grupo Exclusivo de Apoio.
+                  <span className="mr-2 text-gold">✔</span> [BÔNUS 3]: Planilha de Orçamento Familiar Cristão.
                 </p>
                 <p className="flex items-start">
-                  <span className="mr-2 text-gold">✔</span> E muito mais para acelerar sua jornada!
+                  <span className="mr-2 text-gold">✔</span> [BÔNUS 4]: Acesso a um Grupo Exclusivo de Apoio.
                 </p>
               </CardContent>
             </Card>
@@ -357,35 +398,40 @@ const Index = () => {
           <p className="text-lg md:text-xl mb-6 text-darkGreen2 font-light">
             Temos plena confiança na eficácia do "Desafio da Prosperidade Bíblica em 21 Dias". Por isso, oferecemos uma garantia tranquila de 7 dias. Se por qualquer motivo você sentir que o conteúdo não é para você, basta nos enviar um e-mail dentro de 7 dias após a compra e faremos o reembolso total do seu investimento.
           </p>
-          <p className="text-lg md:text-xl text-darkGreen2 font-light">
-            Nosso compromisso é com a sua transformação e com a integridade dos princípios que ensinamos.
-          </p>
-          <div className="w-full max-w-md mx-auto bg-gray-100 rounded-2xl p-6 shadow-inner mt-8">
-            <p className="text-gray-600 text-center text-sm">[IMAGEM AQUI]</p>
-            <div className="w-full h-48 bg-gray-200 flex items-center justify-center rounded-lg">
-              <span className="text-gray-500">IMAGEM DE GARANTIA</span>
-            </div>
+          <div className="w-full max-w-md mx-auto bg-gray-100 rounded-2xl p-8 shadow-inner mt-8 flex flex-col items-center">
+            <ShieldCheck className="text-darkGreen1 mb-4" size={64} />
+            <p className="text-2xl font-bold text-darkGreen1">7 DIAS DE GARANTIA</p>
+            <p className="text-gray-600">Risco Zero para você!</p>
           </div>
         </div>
       </section>
 
-      {/* CTA PRINCIPAL */}
+      {/* CTA PRINCIPAL COM PREÇO */}
       <section id="cta-section" className="bg-darkGreen1 text-white py-16 md:py-24 px-4 rounded-b-3xl shadow-lg">
         <div className="container mx-auto max-w-4xl text-center">
-          <h2 className="text-3xl md:text-5xl font-bold mb-8 text-gold">
+          <h2 className="text-3xl md:text-5xl font-bold mb-6 text-gold">
             Chegou a Hora de Reconstruir Sua Vida Financeira!
           </h2>
-          <p className="text-xl md:text-2xl mb-12 font-light">
-            Não adie mais a sua prosperidade. Clique no botão abaixo e comece hoje mesmo o seu Desafio da Prosperidade Bíblica em 21 Dias.
-          </p>
+          
+          <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-3xl p-8 mb-10 max-w-md mx-auto">
+            <p className="text-gray-300 line-through text-xl mb-2">De R$ 197,00</p>
+            <p className="text-white text-lg mb-1">Por apenas</p>
+            <div className="flex items-center justify-center mb-4">
+              <span className="text-gold text-3xl font-bold mr-2">R$</span>
+              <span className="text-gold text-7xl font-extrabold">45</span>
+              <span className="text-gold text-2xl font-bold ml-1">,00</span>
+            </div>
+            <p className="text-sm text-gray-300">Pagamento único. Acesso vitalício.</p>
+          </div>
+
           <Button
             onClick={() => alert("Redirecionar para o checkout!")}
-            className="bg-gold text-darkGreen1 hover:bg-yellow-400 text-2xl md:text-3xl font-bold py-5 px-12 rounded-full shadow-xl transition-all duration-300 transform hover:scale-105 w-full md:w-auto block mx-auto text-center animate-pulse-subtle flex justify-center items-center"
+            className="bg-gold text-darkGreen1 hover:bg-yellow-400 text-2xl md:text-3xl font-bold py-6 px-12 rounded-full shadow-xl transition-all duration-300 transform hover:scale-105 w-full md:w-auto block mx-auto text-center animate-pulse-subtle flex justify-center items-center"
           >
             SIM! Quero Minha Prosperidade Agora!
           </Button>
-          <p className="text-sm mt-4 text-gray-300">
-            Compra segura e acesso imediato ao seu ebook.
+          <p className="text-sm mt-6 text-gray-300 flex items-center justify-center">
+            <ShieldCheck className="mr-2" size={16} /> Compra 100% segura e acesso imediato.
           </p>
         </div>
       </section>
