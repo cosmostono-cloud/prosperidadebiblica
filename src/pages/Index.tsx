@@ -55,7 +55,7 @@ const Index = () => {
 
           <Button
             onClick={scrollToCta}
-            className="bg-gold text-darkGreen1 hover:bg-yellow-400 text-xl md:text-2xl font-bold py-8 px-12 rounded-full shadow-2xl transition-all duration-300 transform hover:scale-105 w-full md:w-auto animate-pulse-subtle"
+            className="bg-gold text-darkGreen1 hover:bg-yellow-400 text-lg md:text-2xl font-bold py-6 px-8 md:py-8 md:px-12 rounded-full shadow-2xl transition-all duration-300 transform hover:scale-105 w-full md:w-auto animate-pulse-subtle whitespace-normal h-auto"
           >
             Quero Minha Prosperidade Agora!
           </Button>
@@ -155,6 +155,13 @@ const Index = () => {
               </p>
             </Card>
           </div>
+
+          <Button
+            onClick={scrollToCta}
+            className="bg-gold text-darkGreen1 hover:bg-yellow-400 text-lg md:text-xl font-bold py-6 px-8 rounded-full shadow-xl transition-all transform hover:scale-105 w-full md:w-auto h-auto"
+          >
+            Quero Começar Agora!
+          </Button>
         </div>
       </section>
 
@@ -194,15 +201,17 @@ const Index = () => {
               </li>
             </ul>
           </div>
-          
-          <div className="w-full max-w-5xl mx-auto">
-            <h3 className="text-2xl md:text-4xl font-bold text-darkGreen1 mb-10">Confira o poder do desafio na prática:</h3>
-            <img
-              src="https://tonocosmos.com.br/wp-content/uploads/2025/04/3-pb.jpg"
-              alt="Poder do Desafio"
-              className="w-full h-auto rounded-[2.5rem] shadow-2xl border-4 border-gray-100"
-            />
+        </div>
+
+        <div className="w-full">
+          <div className="container mx-auto max-w-4xl text-center mb-10">
+            <h3 className="text-2xl md:text-4xl font-bold text-darkGreen1">Confira o poder do desafio na prática:</h3>
           </div>
+          <img
+            src="https://tonocosmos.com.br/wp-content/uploads/2025/04/3-pb.jpg"
+            alt="Poder do Desafio"
+            className="w-full h-auto shadow-2xl object-cover"
+          />
         </div>
       </section>
 
@@ -217,7 +226,7 @@ const Index = () => {
           </h2>
           <p className="text-xl text-gray-600 mb-16">Ao garantir o desafio hoje, você também recebe:</p>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mb-16">
             <Card className="bg-white border-2 border-gold/30 shadow-2xl rounded-[2rem] p-10 relative overflow-hidden group hover:border-gold transition-all">
               <div className="absolute top-0 right-0 bg-gold text-darkGreen1 px-6 py-2 font-bold text-sm rounded-bl-2xl">GRÁTIS</div>
               <Gift className="text-gold mb-6 group-hover:scale-110 transition-transform" size={56} />
@@ -236,6 +245,13 @@ const Index = () => {
               </p>
             </Card>
           </div>
+
+          <Button
+            onClick={scrollToCta}
+            className="bg-gold text-darkGreen1 hover:bg-yellow-400 text-lg md:text-xl font-bold py-6 px-8 rounded-full shadow-xl transition-all transform hover:scale-105 w-full md:w-auto h-auto"
+          >
+            Quero Meus Bônus Agora!
+          </Button>
         </div>
       </section>
 
@@ -268,15 +284,15 @@ const Index = () => {
             <p className="text-white text-xl mb-4 font-medium">Por apenas um pagamento de:</p>
             <div className="flex items-center justify-center mb-6">
               <span className="text-gold text-4xl font-bold mr-2">R$</span>
-              <span className="text-gold text-8xl font-black tracking-tighter">45</span>
+              <span className="text-gold text-8xl font-black tracking-tighter">44</span>
               <span className="text-gold text-3xl font-bold ml-1">,00</span>
             </div>
             <p className="text-gray-300 text-lg">Acesso vitalício + Todos os bônus inclusos.</p>
           </div>
 
           <Button
-            onClick={() => window.open('https://pay.kiwify.com.br/SEU_LINK_AQUI', '_blank')}
-            className="bg-gold text-darkGreen1 hover:bg-yellow-400 text-2xl md:text-4xl font-black py-10 px-16 rounded-full shadow-2xl transition-all duration-300 transform hover:scale-110 w-full md:w-auto animate-pulse-subtle"
+            onClick={() => window.open('https://pay.kiwify.com.br/QMKaBAc', '_blank')}
+            className="bg-gold text-darkGreen1 hover:bg-yellow-400 text-xl md:text-4xl font-black py-6 px-6 md:py-10 md:px-16 rounded-full shadow-2xl transition-all duration-300 transform hover:scale-110 w-full md:w-auto animate-pulse-subtle whitespace-normal h-auto leading-tight"
           >
             QUERO MEU ACESSO AGORA!
           </Button>
