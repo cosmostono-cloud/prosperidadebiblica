@@ -22,6 +22,13 @@ const Index = () => {
             O método prático para sair da estagnação financeira e reconstruir sua vida com princípios bíblicos de abundância.
           </p>
 
+          {/* Ebook Cover Image - Moved here for full width */}
+          <img
+            src="https://tonocosmos.com.br/wp-content/uploads/2025/04/3-pb.jpg"
+            alt="Capa do Ebook Desafio da Prosperidade Bíblica"
+            className="w-full max-w-sm mx-auto mb-8 rounded-lg shadow-xl object-cover"
+          />
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center mb-12">
             <div className="space-y-4 text-left">
               <p className="flex items-center text-lg md:text-xl">
@@ -48,19 +55,13 @@ const Index = () => {
                   <span className="text-gray-400">VIDEO VSL</span>
                 </div>
               </div>
-              <div className="w-full bg-gray-900 rounded-xl overflow-hidden shadow-2xl p-4 md:max-w-[200px]">
-                <img
-                  src="https://tonocosmos.com.br/wp-content/uploads/2025/04/3-pb.jpg"
-                  alt="Capa do Ebook Desafio da Prosperidade Bíblica"
-                  className="w-full h-auto rounded-lg object-cover"
-                />
-              </div>
+              {/* Removed the ebook image from here */}
             </div>
           </div>
 
           <Button
             onClick={scrollToCta}
-            className="bg-gold text-darkGreen1 hover:bg-yellow-400 text-xl md:text-2xl font-bold py-4 px-10 rounded-full shadow-xl transition-all duration-300 transform hover:scale-105 w-full md:w-auto block mx-auto text-center"
+            className="bg-gold text-darkGreen1 hover:bg-yellow-400 text-xl md:text-2xl font-bold py-4 px-10 rounded-full shadow-xl transition-all duration-300 transform hover:scale-105 w-full md:w-auto block mx-auto text-center animate-pulse-subtle"
           >
             Quero Minha Prosperidade Agora!
           </Button>
@@ -360,7 +361,7 @@ const Index = () => {
           </p>
           <Button
             onClick={() => alert("Redirecionar para o checkout!")}
-            className="bg-gold text-darkGreen1 hover:bg-yellow-400 text-2xl md:text-3xl font-bold py-5 px-12 rounded-full shadow-xl transition-all duration-300 transform hover:scale-105 animate-pulse w-full md:w-auto block mx-auto text-center"
+            className="bg-gold text-darkGreen1 hover:bg-yellow-400 text-2xl md:text-3xl font-bold py-5 px-12 rounded-full shadow-xl transition-all duration-300 transform hover:scale-105 w-full md:w-auto block mx-auto text-center animate-pulse-subtle"
           >
             SIM! Quero Minha Prosperidade Agora!
           </Button>
@@ -432,7 +433,7 @@ const Index = () => {
           </p>
           <Button
             onClick={scrollToCta}
-            className="bg-gold text-darkGreen1 hover:bg-yellow-400 text-2xl md:text-3xl font-bold py-5 px-12 rounded-full shadow-xl transition-all duration-300 transform hover:scale-105 w-full md:w-auto block mx-auto text-center"
+            className="bg-gold text-darkGreen1 hover:bg-yellow-400 text-2xl md:text-3xl font-bold py-5 px-12 rounded-full shadow-xl transition-all duration-300 transform hover:scale-105 w-full md:w-auto block mx-auto text-center animate-pulse-subtle"
           >
             Quero Transformar Minhas Finanças!
           </Button>
