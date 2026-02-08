@@ -64,9 +64,11 @@ const Index = () => {
 
       {/* BLOCO DE DOR */}
       <section className="bg-white pt-20 md:pt-28 pb-10 px-4 relative overflow-hidden">
-        {/* Luzes de fundo sutis */}
+        {/* Luzes de fundo sutis - Azul e Dourado */}
         <div className="absolute top-0 left-1/4 w-64 h-64 bg-blue-400/10 rounded-full blur-[100px] animate-float-slow pointer-events-none"></div>
         <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-blue-300/10 rounded-full blur-[120px] animate-float-slower pointer-events-none"></div>
+        <div className="absolute top-1/2 right-1/3 w-72 h-72 bg-gold/5 rounded-full blur-[110px] animate-float-slow pointer-events-none"></div>
+        <div className="absolute bottom-1/4 left-1/3 w-80 h-80 bg-blue-500/5 rounded-full blur-[130px] animate-float-slower pointer-events-none"></div>
         
         <div className="container mx-auto max-w-4xl text-center relative z-10">
           <h2 className="text-3xl md:text-5xl font-bold mb-12 text-darkBlue1 leading-tight">
@@ -371,7 +373,7 @@ const Index = () => {
             <div className="mb-10 bg-gold/10 py-4 px-6 rounded-2xl border border-gold/20">
               <p className="text-gold font-bold text-lg flex items-center justify-center">
                 <Sparkles className="mr-2" size={20} />
-                +bônus Surpresa Exclusivos apenas para os próximos que adquirirem agora
+                + Bônus Surpresa Exclusivo para quem adquirir agora
               </p>
             </div>
 
