@@ -74,21 +74,21 @@ const Index = () => {
                 <p className="flex items-start text-lg md:text-xl">
                   <XCircle className="text-gold mr-3 mt-1 flex-shrink-0" size={20} />
                   <div className="flex flex-col space-y-1">
-                    <span className="font-semibold leading-relaxed">Dívidas que não param de crescer</span>
+                    <span className="font-semibold leading-relaxed text-gold">Dívidas que não param de crescer</span>
                     <span className="leading-relaxed">e a sensação de estar sempre correndo atrás do prejuízo.</span>
                   </div>
                 </p>
                 <p className="flex items-start text-lg md:text-xl">
                   <XCircle className="text-gold mr-3 mt-1 flex-shrink-0" size={20} />
                   <div className="flex flex-col space-y-1">
-                    <span className="font-semibold leading-relaxed">Salário que nunca é suficiente</span>
+                    <span className="font-semibold leading-relaxed text-gold">Salário que nunca é suficiente</span>
                     <span className="leading-relaxed">para cobrir as despesas básicas e realizar seus sonhos.</span>
                   </div>
                 </p>
                 <p className="flex items-start text-lg md:text-xl">
                   <XCircle className="text-gold mr-3 mt-1 flex-shrink-0" size={20} />
                   <div className="flex flex-col space-y-1">
-                    <span className="font-semibold leading-relaxed">Medo e ansiedade</span>
+                    <span className="font-semibold leading-relaxed text-gold">Medo e ansiedade</span>
                     <span className="leading-relaxed">ao pensar no futuro financeiro da sua família.</span>
                   </div>
                 </p>
@@ -99,21 +99,21 @@ const Index = () => {
                 <p className="flex items-start text-lg md:text-xl">
                   <XCircle className="text-gold mr-3 mt-1 flex-shrink-0" size={20} />
                   <div className="flex flex-col space-y-1">
-                    <span className="font-semibold leading-relaxed">Falta de clareza e direção</span>
+                    <span className="font-semibold leading-relaxed text-gold">Falta de clareza e direção</span>
                     <span className="leading-relaxed">sobre como organizar suas finanças e sair da estagnação.</span>
                   </div>
                 </p>
                 <p className="flex items-start text-lg md:text-xl">
                   <XCircle className="text-gold mr-3 mt-1 flex-shrink-0" size={20} />
                   <div className="flex flex-col space-y-1">
-                    <span className="font-semibold leading-relaxed">Sentimento de culpa ou vergonha</span>
+                    <span className="font-semibold leading-relaxed text-gold">Sentimento de culpa ou vergonha</span>
                     <span className="leading-relaxed">por não conseguir prosperar, mesmo se esforçando.</span>
                   </div>
                 </p>
                 <p className="flex items-start text-lg md:text-xl">
                   <XCircle className="text-gold mr-3 mt-1 flex-shrink-0" size={20} />
                   <div className="flex flex-col space-y-1">
-                    <span className="font-semibold leading-relaxed">Desejo profundo de viver a abundância</span>
+                    <span className="font-semibold leading-relaxed text-gold">Desejo profundo de viver a abundância</span>
                     <span className="leading-relaxed">prometida na Bíblia, mas sem saber por onde começar.</span>
                   </div>
                 </p>
@@ -198,7 +198,7 @@ const Index = () => {
             <ul className="space-y-4 text-lg md:text-xl text-darkGreen2">
               <li className="flex items-start leading-relaxed">
                 <CheckCircle className="text-gold mr-3 mt-1 flex-shrink-0" size={20} />
-                Elaborar um <span className="font-semibold">planejamento financeiro</span> que realmente funciona para você.
+                <span className="font-semibold">Elaborar um planejamento financeiro</span> que realmente funciona para você.
               </li>
               <li className="flex items-start leading-relaxed">
                 <CheckCircle className="text-gold mr-3 mt-1 flex-shrink-0" size={20} />
