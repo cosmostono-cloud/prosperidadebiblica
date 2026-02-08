@@ -15,6 +15,12 @@ const Index = () => {
       {/* HERO SECTION */}
       <section className="bg-darkGreen1 text-white py-16 md:py-24 px-4 rounded-b-3xl shadow-lg">
         <div className="container mx-auto max-w-4xl text-center">
+          {/* Nova imagem adicionada aqui */}
+          <img
+            src="/pb-5.png"
+            alt="Desafio da Prosperidade Bíblica em 21 Dias"
+            className="w-full max-w-xs md:max-w-sm mx-auto mb-6 object-cover"
+          />
           <h1 className="text-4xl md:text-6xl font-extrabold leading-tight mb-4 text-gold">
             Desafio da Prosperidade Bíblica em 21 Dias
           </h1>
