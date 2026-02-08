@@ -11,6 +11,14 @@ const Index = () => {
     document.getElementById("cta-section")?.scrollIntoView({ behavior: "smooth" });
   };
 
+  const handlePurchase = () => {
+    // Rastreia o evento de conversão antes de redirecionar
+    if (typeof window !== "undefined" && (window as any).fbq) {
+      (window as any).fbq('track', 'InitiateCheckout');
+    }
+    window.open('https://pay.kiwify.com.br/QMKaBAc', '_blank');
+  };
+
   return (
     <div className="min-h-screen bg-white text-gray-800 font-sans overflow-x-hidden">
       {/* HERO SECTION */}
@@ -76,11 +84,8 @@ const Index = () => {
 
       {/* BLOCO DE DOR */}
       <section className="bg-white pt-20 md:pt-28 pb-10 px-4 relative overflow-hidden">
-        {/* Luzes de fundo sutis - Azul e Dourado */}
         <div className="absolute top-0 left-1/4 w-64 h-64 bg-blue-400/10 rounded-full blur-[100px] animate-float-slow pointer-events-none"></div>
         <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-blue-300/10 rounded-full blur-[120px] animate-float-slower pointer-events-none"></div>
-        <div className="absolute top-1/2 right-1/3 w-72 h-72 bg-gold/5 rounded-full blur-[110px] animate-float-slow pointer-events-none"></div>
-        <div className="absolute bottom-1/4 left-1/3 w-80 h-80 bg-blue-500/5 rounded-full blur-[130px] animate-float-slower pointer-events-none"></div>
         
         <div className="container mx-auto max-w-4xl text-center relative z-10">
           <FadeIn>
@@ -436,7 +441,7 @@ const Index = () => {
               </div>
 
               <Button
-                onClick={() => window.open('https://pay.kiwify.com.br/QMKaBAc', '_blank')}
+                onClick={handlePurchase}
                 className="bg-gold text-darkBlue1 hover:bg-yellow-400 text-xl md:text-4xl font-black py-8 px-6 md:py-12 md:px-16 rounded-full shadow-2xl transition-all duration-300 transform hover:scale-110 w-full animate-pulse-subtle whitespace-normal h-auto leading-tight"
               >
                 QUERO MEU ACESSO AGORA!
