@@ -73,15 +73,15 @@ const Index = () => {
               <CardContent className="p-0 space-y-4">
                 <p className="flex items-start text-lg md:text-xl leading-relaxed">
                   <XCircle className="text-gold mr-3 mt-1 flex-shrink-0" size={20} />
-                  <span className="font-semibold text-gold">Dívidas que não param de crescer</span> e a sensação de estar sempre correndo atrás do prejuízo.
+                  <span className="font-semibold">Dívidas que não param de crescer</span> e a sensação de estar sempre correndo atrás do prejuízo.
                 </p>
                 <p className="flex items-start text-lg md:text-xl leading-relaxed">
                   <XCircle className="text-gold mr-3 mt-1 flex-shrink-0" size={20} />
-                  <span className="font-semibold text-gold">Salário que nunca é suficiente</span> para cobrir as despesas básicas e realizar seus sonhos.
+                  <span className="font-semibold">Salário que nunca é suficiente</span> para cobrir as despesas básicas e realizar seus sonhos.
                 </p>
                 <p className="flex items-start text-lg md:text-xl leading-relaxed">
                   <XCircle className="text-gold mr-3 mt-1 flex-shrink-0" size={20} />
-                  <span className="font-semibold text-gold">Medo e ansiedade</span> ao pensar no futuro financeiro da sua família.
+                  <span className="font-semibold">Medo e ansiedade</span> ao pensar no futuro financeiro da sua família.
                 </p>
               </CardContent>
             </Card>
@@ -89,15 +89,15 @@ const Index = () => {
               <CardContent className="p-0 space-y-4">
                 <p className="flex items-start text-lg md:text-xl leading-relaxed">
                   <XCircle className="text-gold mr-3 mt-1 flex-shrink-0" size={20} />
-                  <span className="font-semibold text-gold">Falta de clareza e direção</span> sobre como organizar suas finanças e sair da estagnação.
+                  <span className="font-semibold">Falta de clareza e direção</span> sobre como organizar suas finanças e sair da estagnação.
                 </p>
                 <p className="flex items-start text-lg md:text-xl leading-relaxed">
                   <XCircle className="text-gold mr-3 mt-1 flex-shrink-0" size={20} />
-                  <span className="font-semibold text-gold">Sentimento de culpa ou vergonha</span> por não conseguir prosperar, mesmo se esforçando.
+                  <span className="font-semibold">Sentimento de culpa ou vergonha</span> por não conseguir prosperar, mesmo se esforçando.
                 </p>
                 <p className="flex items-start text-lg md:text-xl leading-relaxed">
                   <XCircle className="text-gold mr-3 mt-1 flex-shrink-0" size={20} />
-                  <span className="font-semibold text-gold">Desejo profundo de viver a abundância</span> prometida na Bíblia, mas sem saber por onde começar.
+                  <span className="font-semibold">Desejo profundo de viver a abundância</span> prometida na Bíblia, mas sem saber por onde começar.
                 </p>
               </CardContent>
             </Card>
