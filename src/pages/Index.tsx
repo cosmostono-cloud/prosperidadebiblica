@@ -2,7 +2,7 @@ import React from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
-import { CheckCircle, XCircle, BookOpen, ShieldCheck, Mail, Copyright, Gift, Star, Zap, Clock, Users, UserX } from "lucide-react";
+import { CheckCircle, XCircle, BookOpen, ShieldCheck, Mail, Copyright, Gift, Star, Zap, Clock, Users, UserX, Sparkles } from "lucide-react";
 import { MadeWithDyad } from "@/components/made-with-dyad";
 
 const Index = () => {
