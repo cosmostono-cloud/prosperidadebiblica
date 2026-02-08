@@ -62,6 +62,9 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        darkGreen1: '#0F1A12',
+        darkGreen2: '#142417',
+        gold: '#F4C430',
       },
       borderRadius: {
         lg: "var(--radius)",
