@@ -24,7 +24,7 @@ const Index = () => {
 
           {/* Ebook Cover Image - Moved here for full width */}
           <img
-            src="https://tonocosmos.com.br/wp-content/uploads/2025/04/3-pb.jpg"
+            src="https://tonocosmos.com.br/wp-content/uploads/2025/04/4pb.jpg"
             alt="Capa do Ebook Desafio da Prosperidade Bíblica"
             className="w-full max-w-sm mx-auto mb-8 rounded-lg shadow-xl object-cover"
           />
@@ -196,11 +196,12 @@ const Index = () => {
               </li>
             </ul>
           </div>
-          <div className="w-full max-w-md mx-auto bg-gray-100 rounded-2xl p-6 shadow-inner">
-            <p className="text-gray-600 text-center text-sm">[IMAGEM AQUI]</p>
-            <div className="w-full h-48 bg-gray-200 flex items-center justify-center rounded-lg">
-              <span className="text-gray-500">IMAGEM ILUSTRATIVA</span>
-            </div>
+          <div className="w-full max-w-md mx-auto bg-gray-100 rounded-2xl p-6 shadow-inner mt-8">
+            <img
+              src="https://tonocosmos.com.br/wp-content/uploads/2025/04/3-pb.jpg"
+              alt="Imagem Ilustrativa"
+              className="w-full h-auto rounded-lg object-cover"
+            />
           </div>
         </div>
       </section>
