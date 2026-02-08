@@ -123,25 +123,25 @@ const Index = () => {
                 <BookOpen className="text-gold mx-auto mb-3" size={48} />
                 <CardTitle className="text-2xl font-semibold text-white">O Que É?</CardTitle>
               </CardHeader>
-              <CardContent className="p-0 text-lg font-light">
+              <CardContent className="p-0 text-lg font-light text-white">
                 Um guia diário de 21 dias com ensinamentos e exercícios práticos para aplicar a sabedoria bíblica em suas finanças.
               </CardContent>
             </Card>
             <Card className="bg-darkGreen1 border-none shadow-xl rounded-2xl p-6 text-center">
               <CardHeader className="p-0 mb-4">
                 <ShieldCheck className="text-gold mx-auto mb-3" size={48} />
-                Como Funciona?
+                <CardTitle className="text-2xl font-semibold text-white">Como Funciona?</CardTitle>
               </CardHeader>
-              <CardContent className="p-0 text-lg font-light">
+              <CardContent className="p-0 text-lg font-light text-white">
                 Cada dia, você receberá uma lição, uma reflexão bíblica e um desafio prático para implementar imediatamente em sua vida.
               </CardContent>
             </Card>
             <Card className="bg-darkGreen1 border-none shadow-xl rounded-2xl p-6 text-center">
               <CardHeader className="p-0 mb-4">
                 <CheckCircle className="text-gold mx-auto mb-3" size={48} />
-                Resultados Esperados
+                <CardTitle className="text-2xl font-semibold text-white">Resultados Esperados</CardTitle>
               </CardHeader>
-              <CardContent className="p-0 text-lg font-light">
+              <CardContent className="p-0 text-lg font-light text-white">
                 Clareza, organização, redução de dívidas, aumento da renda e uma mentalidade de abundância alinhada com a fé.
               </CardContent>
             </Card>
