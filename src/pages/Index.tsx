@@ -206,7 +206,7 @@ const Index = () => {
               </li>
               <li className="flex items-start leading-relaxed">
                 <CheckCircle className="text-gold mr-3 mt-1 flex-shrink-0" size={20} />
-                Construir um <span className="font-semibold">plano de 90 dias</span> para sustentar sua prosperidade.
+                Construir um <span className="font-semibold">plano de 90 dias</span> para sustentar sua prosperity.
               </li>
               <li className="flex items-start leading-relaxed">
                 <CheckCircle className="text-gold mr-3 mt-1 flex-shrink-0" size={20} />
@@ -231,7 +231,7 @@ const Index = () => {
             Este Desafio É Para Você Se...
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-            <Card className="bg-darkGreen2 border-none shadow-xl rounded-2xl p-6 text-left">
+            <Card className="bg-darkGreen2 border-none shadow-xl rounded-2xl p-6 text-left text-gray-200">
               <CardHeader className="p-0 mb-4">
                 <CheckCircle className="text-gold mr-3 mb-2" size={32} />
                 <CardTitle className="text-2xl font-semibold text-white">É Para Você!</CardTitle>
@@ -251,7 +251,7 @@ const Index = () => {
                 </p>
               </CardContent>
             </Card>
-            <Card className="bg-gray-800 border-none shadow-xl rounded-2xl p-6 text-left">
+            <Card className="bg-gray-800 border-none shadow-xl rounded-2xl p-6 text-left text-gray-200">
               <CardHeader className="p-0 mb-4">
                 <XCircle className="text-red-500 mr-3 mb-2" size={32} />
                 <CardTitle className="text-2xl font-semibold text-white">Não É Para Você Se...</CardTitle>
@@ -304,7 +304,7 @@ const Index = () => {
             O Que Você Receberá Imediatamente:
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-            <Card className="bg-darkGreen1 border-none shadow-xl rounded-2xl p-6 text-left">
+            <Card className="bg-darkGreen1 border-none shadow-xl rounded-2xl p-6 text-left text-gray-200">
               <CardHeader className="p-0 mb-4">
                 <BookOpen className="text-gold mr-3 mb-2" size={32} />
                 <CardTitle className="text-2xl font-semibold text-white">Ebook Principal</CardTitle>
@@ -324,7 +324,7 @@ const Index = () => {
                 </p>
               </CardContent>
             </Card>
-            <Card className="bg-darkGreen1 border-none shadow-xl rounded-2xl p-6 text-left">
+            <Card className="bg-darkGreen1 border-none shadow-xl rounded-2xl p-6 text-left text-gray-200">
               <CardHeader className="p-0 mb-4">
                 <CheckCircle className="text-gold mr-3 mb-2" size={32} />
                 <CardTitle className="text-2xl font-semibold text-white">Bônus Exclusivo</CardTitle>
