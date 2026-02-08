@@ -100,12 +100,22 @@ export default {
             "filter": "drop-shadow(0 0 30px rgba(244, 196, 48, 0.8))",
           },
         },
+        "float": {
+          "0%, 100%": { transform: "translate(0, 0)" },
+          "50%": { transform: "translate(30px, -30px)" },
+        },
+        "float-reverse": {
+          "0%, 100%": { transform: "translate(0, 0)" },
+          "50%": { transform: "translate(-30px, 30px)" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
         "pulse-subtle": "pulse-subtle 2s cubic-bezier(0.4, 0, 0.6, 1) infinite",
         "glow-gold": "glow-gold 3s ease-in-out infinite",
+        "float-slow": "float 10s ease-in-out infinite",
+        "float-slower": "float-reverse 15s ease-in-out infinite",
       },
     },
   },
