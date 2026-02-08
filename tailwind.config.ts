@@ -92,11 +92,20 @@ export default {
           "0%, 100%": { opacity: "1" },
           "50%": { opacity: "0.9" },
         },
+        "glow-gold": {
+          "0%, 100%": {
+            "box-shadow": "0 0 15px 5px rgba(244, 196, 48, 0.2)", // Brilho dourado sutil
+          },
+          "50%": {
+            "box-shadow": "0 0 25px 10px rgba(244, 196, 48, 0.4)", // Brilho dourado um pouco mais intenso
+          },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
         "pulse-subtle": "pulse-subtle 2s cubic-bezier(0.4, 0, 0.6, 1) infinite",
+        "glow-gold": "glow-gold 3s ease-in-out infinite", // Animação de 3 segundos, suave e infinita
       },
     },
   },

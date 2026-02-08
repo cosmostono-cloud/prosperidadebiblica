@@ -13,7 +13,7 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-white text-gray-800 font-sans">
       {/* HERO SECTION */}
-      <section className="bg-darkGreen1 text-white py-16 md:py-24 px-4 rounded-b-3xl shadow-lg">
+      <section className="bg-darkGreen1 text-white py-16 md:py-24 px-4 rounded-b-3xl shadow-lg animate-glow-gold">
         <div className="container mx-auto max-w-4xl text-center">
           <h1 className="text-4xl md:text-6xl font-extrabold leading-tight mb-4 text-gold">
             Desafio da Prosperidade Bíblica em 21 Dias
