@@ -2,7 +2,7 @@ import React from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
-import { CheckCircle, XCircle, BookOpen, ShieldCheck, Mail, Copyright, Gift, Star } from "lucide-react";
+import { CheckCircle, XCircle, BookOpen, ShieldCheck, Mail, Copyright, Gift, Star, Sparkles, Zap, Clock } from "lucide-react";
 import { MadeWithDyad } from "@/components/made-with-dyad";
 
 const Index = () => {
@@ -26,7 +26,7 @@ const Index = () => {
             <img
               src="/pb-5.png"
               alt="Desafio da Prosperidade Bíblica em 21 Dias"
-              className="w-full max-w-xl mx-auto animate-glow-gold rounded-2xl shadow-2xl border-4 border-gold/20"
+              className="w-full max-w-xl mx-auto animate-glow-gold"
             />
           </div>
 
@@ -168,6 +168,14 @@ const Index = () => {
       {/* O QUE A PESSOA VAI APRENDER */}
       <section className="bg-white py-20 md:py-28 px-4">
         <div className="container mx-auto max-w-4xl text-center">
+          <div className="mb-16">
+            <img
+              src="/pb-8.png"
+              alt="Sabedoria Bíblica"
+              className="w-full h-auto rounded-[3rem] shadow-2xl mb-12"
+            />
+          </div>
+          
           <h2 className="text-3xl md:text-5xl font-bold mb-16 text-darkGreen1">
             O que você vai dominar em 21 dias:
           </h2>
@@ -276,26 +284,48 @@ const Index = () => {
       <section id="cta-section" className="bg-darkGreen1 text-white py-20 md:py-32 px-4 rounded-t-[4rem] shadow-2xl">
         <div className="container mx-auto max-w-4xl text-center">
           <h2 className="text-4xl md:text-6xl font-extrabold mb-10 text-gold leading-tight">
-            Comece Sua Transformação Hoje!
+            Sua Jornada de Sabedoria Financeira Bíblica Começa Agora!
           </h2>
           
-          <div className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-[3rem] p-12 mb-12 max-w-lg mx-auto shadow-2xl">
+          <div className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-[3rem] p-8 md:p-12 mb-12 max-w-2xl mx-auto shadow-2xl relative overflow-hidden">
+            <div className="absolute top-0 right-0 p-4">
+              <Sparkles className="text-gold animate-pulse" size={32} />
+            </div>
+            
             <p className="text-gray-400 line-through text-2xl mb-2">De R$ 197,00</p>
             <p className="text-white text-xl mb-4 font-medium">Por apenas um pagamento de:</p>
-            <div className="flex items-center justify-center mb-6">
+            <div className="flex items-center justify-center mb-8">
               <span className="text-gold text-4xl font-bold mr-2">R$</span>
-              <span className="text-gold text-8xl font-black tracking-tighter">44</span>
+              <span className="text-gold text-8xl md:text-9xl font-black tracking-tighter">44</span>
               <span className="text-gold text-3xl font-bold ml-1">,00</span>
             </div>
-            <p className="text-gray-300 text-lg">Acesso vitalício + Todos os bônus inclusos.</p>
-          </div>
 
-          <Button
-            onClick={() => window.open('https://pay.kiwify.com.br/QMKaBAc', '_blank')}
-            className="bg-gold text-darkGreen1 hover:bg-yellow-400 text-xl md:text-4xl font-black py-6 px-6 md:py-10 md:px-16 rounded-full shadow-2xl transition-all duration-300 transform hover:scale-110 w-full md:w-auto animate-pulse-subtle whitespace-normal h-auto leading-tight"
-          >
-            QUERO MEU ACESSO AGORA!
-          </Button>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-left mb-10 border-t border-white/10 pt-8">
+              <div className="flex items-center text-gray-200">
+                <Zap className="text-gold mr-3 flex-shrink-0" size={20} />
+                <span>Acesso Vitalício</span>
+              </div>
+              <div className="flex items-center text-gray-200">
+                <Gift className="text-gold mr-3 flex-shrink-0" size={20} />
+                <span>Todos os Bônus Inclusos</span>
+              </div>
+              <div className="flex items-center text-gray-200">
+                <ShieldCheck className="text-gold mr-3 flex-shrink-0" size={20} />
+                <span>Garantia de 7 Dias</span>
+              </div>
+              <div className="flex items-center text-gray-200">
+                <Clock className="text-gold mr-3 flex-shrink-0" size={20} />
+                <span>Acesso Imediato</span>
+              </div>
+            </div>
+
+            <Button
+              onClick={() => window.open('https://pay.kiwify.com.br/QMKaBAc', '_blank')}
+              className="bg-gold text-darkGreen1 hover:bg-yellow-400 text-xl md:text-4xl font-black py-8 px-6 md:py-12 md:px-16 rounded-full shadow-2xl transition-all duration-300 transform hover:scale-110 w-full animate-pulse-subtle whitespace-normal h-auto leading-tight"
+            >
+              QUERO MEU ACESSO AGORA!
+            </Button>
+          </div>
           
           <div className="mt-10 flex flex-col md:flex-row items-center justify-center gap-6 text-gray-400">
             <div className="flex items-center">

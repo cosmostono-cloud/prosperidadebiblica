@@ -94,10 +94,10 @@ export default {
         },
         "glow-gold": {
           "0%, 100%": {
-            "box-shadow": "0 0 20px 8px rgba(244, 196, 48, 0.4)", // Brilho dourado sutil mais intenso
+            "filter": "drop-shadow(0 0 15px rgba(244, 196, 48, 0.4))",
           },
           "50%": {
-            "box-shadow": "0 0 35px 15px rgba(244, 196, 48, 0.7)", // Brilho dourado um pouco mais intenso
+            "filter": "drop-shadow(0 0 30px rgba(244, 196, 48, 0.8))",
           },
         },
       },
@@ -105,7 +105,7 @@ export default {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
         "pulse-subtle": "pulse-subtle 2s cubic-bezier(0.4, 0, 0.6, 1) infinite",
-        "glow-gold": "glow-gold 3s ease-in-out infinite", // Animação de 3 segundos, suave e infinita
+        "glow-gold": "glow-gold 3s ease-in-out infinite",
       },
     },
   },
