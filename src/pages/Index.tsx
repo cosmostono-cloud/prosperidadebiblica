@@ -424,10 +424,6 @@ const Index = () => {
               <AccordionTrigger className="text-lg md:text-xl font-bold text-darkBlue2 hover:no-underline py-6">
                 Funciona para quem tem muitas dívidas?
               </AccordionTrigger>
-              <AccordionItem value="item-1" className="border border-gray-100 rounded-2xl px-6 bg-gray-50/50">
-              <AccordionTrigger className="text-lg md:text-xl font-bold text-darkBlue2 hover:no-underline py-6">
-                Funciona para quem tem muitas dívidas?
-              </AccordionTrigger>
               <AccordionContent className="text-lg text-gray-600 pb-6 leading-relaxed">
                 Sim! O método foca justamente em quem está travado ou endividado, oferecendo um passo a passo bíblico e prático para retomar o controle.
               </AccordionContent>
