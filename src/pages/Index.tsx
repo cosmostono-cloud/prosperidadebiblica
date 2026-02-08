@@ -26,7 +26,7 @@ const Index = () => {
           <img
             src="/pb-5.png"
             alt="Desafio da Prosperidade Bíblica em 21 Dias"
-            className="w-full max-w-full md:max-w-xl mx-auto mb-6 object-cover animate-glow-gold"
+            className="w-full max-w-full md:max-w-xl mx-auto mb-6 object-cover animate-glow-gold rounded-lg"
           />
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center mb-12">
