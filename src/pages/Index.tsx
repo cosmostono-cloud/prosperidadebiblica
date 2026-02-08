@@ -2,7 +2,7 @@ import React from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
-import { CheckCircle, XCircle, BookOpen, ShieldCheck, Mail, Copyright, Gift, Star, Sparkles, Zap, Clock } from "lucide-react";
+import { CheckCircle, XCircle, BookOpen, ShieldCheck, Mail, Copyright, Gift, Star, Zap, Clock, Users, UserX } from "lucide-react";
 import { MadeWithDyad } from "@/components/made-with-dyad";
 
 const Index = () => {
@@ -113,11 +113,68 @@ const Index = () => {
             <img
               src="/6-pb.png"
               alt="Transformação Financeira"
-              className="w-full max-w-3xl mx-auto rounded-[2rem] shadow-2xl mb-10 border-8 border-gray-50"
+              className="w-full max-w-5xl mx-auto rounded-[2rem] shadow-2xl mb-10 border-8 border-gray-50"
             />
             <p className="text-2xl md:text-3xl text-darkGreen2 font-bold max-w-2xl mx-auto leading-snug">
               Você não está sozinho(a). Existe um caminho bíblico para a sua transformação.
             </p>
+          </div>
+        </div>
+      </section>
+
+      {/* PARA QUEM É / NÃO É */}
+      <section className="bg-gray-50 py-20 md:py-28 px-4">
+        <div className="container mx-auto max-w-5xl">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+            <div className="bg-white p-10 rounded-[3rem] shadow-xl border-t-8 border-gold">
+              <div className="flex items-center mb-8">
+                <Users className="text-gold mr-4" size={40} />
+                <h3 className="text-3xl font-bold text-darkGreen1">Para quem é:</h3>
+              </div>
+              <ul className="space-y-6">
+                <li className="flex items-start">
+                  <CheckCircle className="text-green-600 mr-3 mt-1 flex-shrink-0" size={24} />
+                  <p className="text-lg text-gray-700">Pastores, padres e líderes que desejam ensinar sobre mordomia cristã.</p>
+                </li>
+                <li className="flex items-start">
+                  <CheckCircle className="text-green-600 mr-3 mt-1 flex-shrink-0" size={24} />
+                  <p className="text-lg text-gray-700">Estudiosos da Bíblia que buscam aplicar princípios práticos no dia a dia.</p>
+                </li>
+                <li className="flex items-start">
+                  <CheckCircle className="text-green-600 mr-3 mt-1 flex-shrink-0" size={24} />
+                  <p className="text-lg text-gray-700">Aprendizes que querem prosperar de forma honesta e abençoada.</p>
+                </li>
+                <li className="flex items-start">
+                  <CheckCircle className="text-green-600 mr-3 mt-1 flex-shrink-0" size={24} />
+                  <p className="text-lg text-gray-700">Qualquer pessoa cansada da escassez e pronta para a abundância bíblica.</p>
+                </li>
+              </ul>
+            </div>
+
+            <div className="bg-white p-10 rounded-[3rem] shadow-xl border-t-8 border-red-500">
+              <div className="flex items-center mb-8">
+                <UserX className="text-red-500 mr-4" size={40} />
+                <h3 className="text-3xl font-bold text-darkGreen1">Para quem NÃO é:</h3>
+              </div>
+              <ul className="space-y-6">
+                <li className="flex items-start">
+                  <XCircle className="text-red-500 mr-3 mt-1 flex-shrink-0" size={24} />
+                  <p className="text-lg text-gray-700">Pessoas que buscam "fórmulas mágicas" para ficar rico da noite para o dia.</p>
+                </li>
+                <li className="flex items-start">
+                  <XCircle className="text-red-500 mr-3 mt-1 flex-shrink-0" size={24} />
+                  <p className="text-lg text-gray-700">Quem não está disposto a colocar a mão na massa e seguir o desafio.</p>
+                </li>
+                <li className="flex items-start">
+                  <XCircle className="text-red-500 mr-3 mt-1 flex-shrink-0" size={24} />
+                  <p className="text-lg text-gray-700">Aqueles que não acreditam ou não respeitam princípios cristãos.</p>
+                </li>
+                <li className="flex items-start">
+                  <XCircle className="text-red-500 mr-3 mt-1 flex-shrink-0" size={24} />
+                  <p className="text-lg text-gray-700">Pessoas que preferem continuar na zona de conforto da escassez.</p>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>
@@ -224,31 +281,32 @@ const Index = () => {
       </section>
 
       {/* SEÇÃO DE BÔNUS */}
-      <section className="bg-gray-50 py-20 md:py-28 px-4 border-y border-gray-100">
-        <div className="container mx-auto max-w-5xl text-center">
-          <div className="inline-block bg-gold/10 text-gold font-bold px-6 py-2 rounded-full mb-6">
+      <section className="bg-darkGreen1 py-20 md:py-28 px-4 relative overflow-hidden">
+        <div className="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]"></div>
+        <div className="container mx-auto max-w-5xl text-center relative z-10">
+          <div className="inline-block bg-gold text-darkGreen1 font-black px-8 py-3 rounded-full mb-8 animate-bounce shadow-2xl text-lg">
             OFERTA LIMITADA
           </div>
-          <h2 className="text-3xl md:text-5xl font-bold mb-6 text-darkGreen1">
-            Bônus Exclusivos Gratuitos
+          <h2 className="text-4xl md:text-6xl font-black mb-6 text-white drop-shadow-lg">
+            <span className="text-gold">Bônus Exclusivos</span> Gratuitos
           </h2>
-          <p className="text-xl text-gray-600 mb-16">Ao garantir o desafio hoje, você também recebe:</p>
+          <p className="text-xl text-gray-300 mb-16 max-w-2xl mx-auto">Ao garantir o desafio hoje, você também recebe estes presentes especiais:</p>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mb-16">
-            <Card className="bg-white border-2 border-gold/30 shadow-2xl rounded-[2rem] p-10 relative overflow-hidden group hover:border-gold transition-all">
+            <Card className="bg-white/5 backdrop-blur-md border-2 border-gold/30 shadow-2xl rounded-[2rem] p-10 relative overflow-hidden group hover:border-gold transition-all">
               <div className="absolute top-0 right-0 bg-gold text-darkGreen1 px-6 py-2 font-bold text-sm rounded-bl-2xl">GRÁTIS</div>
               <Gift className="text-gold mb-6 group-hover:scale-110 transition-transform" size={56} />
-              <CardTitle className="text-2xl font-bold text-darkGreen1 mb-4">Ebook Q.I. Espiritual</CardTitle>
-              <p className="text-lg text-gray-600 leading-relaxed">
+              <CardTitle className="text-2xl font-bold text-white mb-4">Ebook Q.I. Espiritual</CardTitle>
+              <p className="text-lg text-gray-300 leading-relaxed">
                 Desenvolva sua inteligência espiritual para tomar decisões sábias e alinhadas com o propósito divino.
               </p>
             </Card>
             
-            <Card className="bg-white border-2 border-gold/30 shadow-2xl rounded-[2rem] p-10 relative overflow-hidden group hover:border-gold transition-all">
+            <Card className="bg-white/5 backdrop-blur-md border-2 border-gold/30 shadow-2xl rounded-[2rem] p-10 relative overflow-hidden group hover:border-gold transition-all">
               <div className="absolute top-0 right-0 bg-gold text-darkGreen1 px-6 py-2 font-bold text-sm rounded-bl-2xl">GRÁTIS</div>
               <Star className="text-gold mb-6 group-hover:scale-110 transition-transform" size={56} />
-              <CardTitle className="text-2xl font-bold text-darkGreen1 mb-4">7 Passos para o Despertar</CardTitle>
-              <p className="text-lg text-gray-600 leading-relaxed">
+              <CardTitle className="text-2xl font-bold text-white mb-4">7 Passos para o Despertar</CardTitle>
+              <p className="text-lg text-gray-300 leading-relaxed">
                 Um guia prático para renovar sua fé e se conectar profundamente com a fonte de toda a abundância.
               </p>
             </Card>
@@ -283,17 +341,13 @@ const Index = () => {
       {/* CTA PRINCIPAL COM PREÇO */}
       <section id="cta-section" className="bg-darkGreen1 text-white py-20 md:py-32 px-4 rounded-t-[4rem] shadow-2xl">
         <div className="container mx-auto max-w-4xl text-center">
-          <h2 className="text-4xl md:text-6xl font-extrabold mb-10 text-gold leading-tight">
-            Sua Jornada de Sabedoria Financeira Bíblica Começa Agora!
+          <h2 className="text-4xl md:text-6xl font-extrabold mb-10 leading-tight">
+            Sua Jornada de <span className="text-gold">Sabedoria Financeira Bíblica</span>
           </h2>
           
           <div className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-[3rem] p-8 md:p-12 mb-12 max-w-2xl mx-auto shadow-2xl relative overflow-hidden">
-            <div className="absolute top-0 right-0 p-4">
-              <Sparkles className="text-gold animate-pulse" size={32} />
-            </div>
-            
-            <p className="text-gray-400 line-through text-2xl mb-2">De R$ 197,00</p>
-            <p className="text-white text-xl mb-4 font-medium">Por apenas um pagamento de:</p>
+            <p className="text-gray-400 line-through text-2xl mb-2">De R$ 147,00</p>
+            <p className="text-white text-xl mb-4 font-medium">Por apenas:</p>
             <div className="flex items-center justify-center mb-8">
               <span className="text-gold text-4xl font-bold mr-2">R$</span>
               <span className="text-gold text-8xl md:text-9xl font-black tracking-tighter">44</span>
@@ -317,6 +371,13 @@ const Index = () => {
                 <Clock className="text-gold mr-3 flex-shrink-0" size={20} />
                 <span>Acesso Imediato</span>
               </div>
+            </div>
+
+            <div className="mb-10 bg-gold/10 py-4 px-6 rounded-2xl border border-gold/20">
+              <p className="text-gold font-bold text-lg flex items-center justify-center">
+                <Sparkles className="mr-2" size={20} />
+                + Bônus Surpresa Exclusivos para Novos Alunos!
+              </p>
             </div>
 
             <Button
