@@ -94,10 +94,10 @@ export default {
         },
         "glow-gold": {
           "0%, 100%": {
-            "box-shadow": "0 0 20px 8px rgba(244, 196, 48, 0.4)", // Brilho dourado sutil mais intenso
+            filter: "drop-shadow(0 0 15px rgba(244, 196, 48, 0.6))", // Brilho dourado sutil
           },
           "50%": {
-            "box-shadow": "0 0 35px 15px rgba(244, 196, 48, 0.7)", // Brilho dourado um pouco mais intenso
+            filter: "drop-shadow(0 0 30px rgba(244, 196, 48, 0.9))", // Brilho dourado mais intenso
           },
         },
       },
