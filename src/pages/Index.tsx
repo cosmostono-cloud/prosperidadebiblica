@@ -59,7 +59,7 @@ const Index = () => {
 
           <Button
             onClick={scrollToCta}
-            className="bg-gold text-darkGreen1 hover:bg-yellow-400 text-xl md:text-2xl font-bold py-4 px-10 rounded-full shadow-xl transition-all duration-300 transform hover:scale-105 w-full md:w-auto"
+            className="bg-gold text-darkGreen1 hover:bg-yellow-400 text-xl md:text-2xl font-bold py-4 px-10 rounded-full shadow-xl transition-all duration-300 transform hover:scale-105 w-full md:w-auto block mx-auto text-center"
           >
             Quero Minha Prosperidade Agora!
           </Button>
@@ -358,7 +358,7 @@ const Index = () => {
           </p>
           <Button
             onClick={() => alert("Redirecionar para o checkout!")}
-            className="bg-gold text-darkGreen1 hover:bg-yellow-400 text-2xl md:text-3xl font-bold py-5 px-12 rounded-full shadow-xl transition-all duration-300 transform hover:scale-105 animate-pulse w-full md:w-auto"
+            className="bg-gold text-darkGreen1 hover:bg-yellow-400 text-2xl md:text-3xl font-bold py-5 px-12 rounded-full shadow-xl transition-all duration-300 transform hover:scale-105 animate-pulse w-full md:w-auto block mx-auto text-center"
           >
             SIM! Quero Minha Prosperidade Agora!
           </Button>
@@ -430,7 +430,7 @@ const Index = () => {
           </p>
           <Button
             onClick={scrollToCta}
-            className="bg-gold text-darkGreen1 hover:bg-yellow-400 text-2xl md:text-3xl font-bold py-5 px-12 rounded-full shadow-xl transition-all duration-300 transform hover:scale-105 w-full md:w-auto"
+            className="bg-gold text-darkGreen1 hover:bg-yellow-400 text-2xl md:text-3xl font-bold py-5 px-12 rounded-full shadow-xl transition-all duration-300 transform hover:scale-105 w-full md:w-auto block mx-auto text-center"
           >
             Quero Transformar Minhas Finanças!
           </Button>
