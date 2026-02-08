@@ -48,11 +48,12 @@ const Index = () => {
                   <span className="text-gray-400">VIDEO VSL</span>
                 </div>
               </div>
-              <div className="w-full max-w-[200px] bg-gray-900 rounded-xl overflow-hidden shadow-2xl p-4">
-                <p className="text-gray-300 text-center text-sm mb-2">[INSERIR IMAGEM DA CAPA AQUI]</p>
-                <div className="w-full h-auto aspect-[2/3] bg-gray-700 flex items-center justify-center rounded-lg">
-                  <span className="text-gray-400">CAPA DO EBOOK</span>
-                </div>
+              <div className="w-full bg-gray-900 rounded-xl overflow-hidden shadow-2xl p-4 md:max-w-[200px]">
+                <img
+                  src="https://tonocosmos.com.br/wp-content/uploads/2025/04/3-pb.jpg"
+                  alt="Capa do Ebook Desafio da Prosperidade Bíblica"
+                  className="w-full h-auto rounded-lg object-cover"
+                />
               </div>
             </div>
           </div>
