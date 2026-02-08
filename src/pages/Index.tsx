@@ -71,33 +71,51 @@ const Index = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-left mb-12">
             <Card className="bg-darkGreen2 border-none shadow-lg rounded-2xl p-6 text-gray-200">
               <CardContent className="p-0 space-y-4">
-                <p className="flex items-start text-lg md:text-xl leading-relaxed">
+                <p className="flex items-start text-lg md:text-xl">
                   <XCircle className="text-gold mr-3 mt-1 flex-shrink-0" size={20} />
-                  <span className="font-semibold">Dívidas que não param de crescer</span> e a sensação de estar sempre correndo atrás do prejuízo.
+                  <div className="flex flex-col space-y-1">
+                    <span className="font-semibold leading-relaxed">Dívidas que não param de crescer</span>
+                    <span className="leading-relaxed">e a sensação de estar sempre correndo atrás do prejuízo.</span>
+                  </div>
                 </p>
-                <p className="flex items-start text-lg md:text-xl leading-relaxed">
+                <p className="flex items-start text-lg md:text-xl">
                   <XCircle className="text-gold mr-3 mt-1 flex-shrink-0" size={20} />
-                  <span className="font-semibold">Salário que nunca é suficiente</span> para cobrir as despesas básicas e realizar seus sonhos.
+                  <div className="flex flex-col space-y-1">
+                    <span className="font-semibold leading-relaxed">Salário que nunca é suficiente</span>
+                    <span className="leading-relaxed">para cobrir as despesas básicas e realizar seus sonhos.</span>
+                  </div>
                 </p>
-                <p className="flex items-start text-lg md:text-xl leading-relaxed">
+                <p className="flex items-start text-lg md:text-xl">
                   <XCircle className="text-gold mr-3 mt-1 flex-shrink-0" size={20} />
-                  <span className="font-semibold">Medo e ansiedade</span> ao pensar no futuro financeiro da sua família.
+                  <div className="flex flex-col space-y-1">
+                    <span className="font-semibold leading-relaxed">Medo e ansiedade</span>
+                    <span className="leading-relaxed">ao pensar no futuro financeiro da sua família.</span>
+                  </div>
                 </p>
               </CardContent>
             </Card>
             <Card className="bg-darkGreen2 border-none shadow-lg rounded-2xl p-6 text-gray-200">
               <CardContent className="p-0 space-y-4">
-                <p className="flex items-start text-lg md:text-xl leading-relaxed">
+                <p className="flex items-start text-lg md:text-xl">
                   <XCircle className="text-gold mr-3 mt-1 flex-shrink-0" size={20} />
-                  <span className="font-semibold">Falta de clareza e direção</span> sobre como organizar suas finanças e sair da estagnação.
+                  <div className="flex flex-col space-y-1">
+                    <span className="font-semibold leading-relaxed">Falta de clareza e direção</span>
+                    <span className="leading-relaxed">sobre como organizar suas finanças e sair da estagnação.</span>
+                  </div>
                 </p>
-                <p className="flex items-start text-lg md:text-xl leading-relaxed">
+                <p className="flex items-start text-lg md:text-xl">
                   <XCircle className="text-gold mr-3 mt-1 flex-shrink-0" size={20} />
-                  <span className="font-semibold">Sentimento de culpa ou vergonha</span> por não conseguir prosperar, mesmo se esforçando.
+                  <div className="flex flex-col space-y-1">
+                    <span className="font-semibold leading-relaxed">Sentimento de culpa ou vergonha</span>
+                    <span className="leading-relaxed">por não conseguir prosperar, mesmo se esforçando.</span>
+                  </div>
                 </p>
-                <p className="flex items-start text-lg md:text-xl leading-relaxed">
+                <p className="flex items-start text-lg md:text-xl">
                   <XCircle className="text-gold mr-3 mt-1 flex-shrink-0" size={20} />
-                  <span className="font-semibold">Desejo profundo de viver a abundância</span> prometida na Bíblia, mas sem saber por onde começar.
+                  <div className="flex flex-col space-y-1">
+                    <span className="font-semibold leading-relaxed">Desejo profundo de viver a abundância</span>
+                    <span className="leading-relaxed">prometida na Bíblia, mas sem saber por onde começar.</span>
+                  </div>
                 </p>
               </CardContent>
             </Card>
