@@ -268,7 +268,7 @@ const Index = () => {
           </p>
           <div className="w-full max-w-md mx-auto bg-gray-100 rounded-2xl p-6 shadow-inner mt-8">
             <img
-              src="https://i0.wp.com/tonocosmos.com.br/wp-content/uploads/2020/11/images-2020-11-09T180027.544-1.jpeg"
+              src="https://tonocosmos.com.br/wp-content/uploads/2025/04/2-pb.jpg"
               alt="Imagem de Autoridade/Testemunho"
               className="w-full h-auto rounded-lg object-cover"
             />
