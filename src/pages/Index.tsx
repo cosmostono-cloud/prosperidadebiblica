@@ -13,7 +13,7 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-white text-gray-800 font-sans">
       {/* HERO SECTION */}
-      <section className="bg-darkGreen1 text-white py-16 md:py-24 px-4 rounded-b-3xl shadow-lg animate-glow-gold">
+      <section className="bg-darkGreen1 text-white py-16 md:py-24 px-4 rounded-b-3xl shadow-lg">
         <div className="container mx-auto max-w-4xl text-center">
           <h1 className="text-4xl md:text-6xl font-extrabold leading-tight mb-4 text-gold">
             Desafio da Prosperidade Bíblica em 21 Dias
@@ -26,7 +26,7 @@ const Index = () => {
           <img
             src="/pb-5.png"
             alt="Desafio da Prosperidade Bíblica em 21 Dias"
-            className="w-full max-w-full md:max-w-xl mx-auto mb-6 object-cover"
+            className="w-full max-w-full md:max-w-xl mx-auto mb-6 object-cover animate-glow-gold rounded-lg"
           />
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center mb-12">
