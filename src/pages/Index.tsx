@@ -4,7 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 import Autoplay from "embla-carousel-autoplay";
-import { CheckCircle, XCircle, BookOpen, ShieldCheck, Mail, Copyright, Gift, Star, Zap, Clock, Users, UserX, Sparkles } from "lucide-react";
+import { CheckCircle, XCircle, BookOpen, ShieldCheck, Mail, Copyright, Gift, Star, Zap, Clock, Users, UserX, Sparkles, Quote } from "lucide-react";
 import { MadeWithDyad } from "@/components/made-with-dyad";
 import FadeIn from "@/components/FadeIn";
 import WhatsAppButton from "@/components/WhatsAppButton";
@@ -39,8 +39,8 @@ const Index = () => {
           </FadeIn>
           
           <FadeIn delay={0.2}>
-            <p className="text-xl md:text-2xl mb-10 font-light text-gray-100 max-w-3xl mx-auto">
-              Descubra os princípios escondidos nas Escrituras que desbloqueiam a prosperidade financeira sem culpa, sem misticismo vazio e sem se afastar de Deus.
+            <p className="text-xl md:text-2xl mb-10 font-light text-gray-100 max-w-3xl mx-auto leading-relaxed">
+              Descubra os <span className="font-bold text-white">princípios escondidos</span> nas Escrituras que desbloqueiam a <span className="font-bold text-white">prosperidade financeira</span> sem culpa, sem misticismo vazio e sem se <span className="font-bold text-white">afastar de Deus</span>.
             </p>
           </FadeIn>
 
@@ -55,13 +55,15 @@ const Index = () => {
             </div>
           </FadeIn>
 
-          {/* Texto de Destaque Amarelo */}
+          {/* Bloco de Versículo Elegante */}
           <FadeIn delay={0.35}>
-            <div className="max-w-3xl mx-auto mb-12 py-8 border-y border-gold/30">
-              <p className="text-gold text-xl md:text-2xl font-bold leading-relaxed italic">
-                Você ora, trabalha e tem fé, mas o dinheiro nunca sobra. <br className="hidden md:block" />
-                Talvez o problema não seja a sua fé, e sim os códigos espirituais que nunca te ensinaram.
+            <div className="max-w-2xl mx-auto mb-12 p-8 md:p-12 bg-white/5 border border-gold/30 rounded-[2rem] relative backdrop-blur-sm shadow-2xl">
+              <Quote className="absolute -top-4 -left-4 text-gold/40 w-12 h-12 md:w-16 md:h-16" />
+              <p className="text-2xl md:text-3xl font-light text-gray-100 leading-relaxed italic font-serif">
+                “A bênção do Senhor é que enriquece, e não acrescenta dores.”
               </p>
+              <p className="mt-6 text-gold font-bold text-xl tracking-widest uppercase">Provérbios 10:22</p>
+              <Quote className="absolute -bottom-4 -right-4 text-gold/40 w-12 h-12 md:w-16 md:h-16 rotate-180" />
             </div>
           </FadeIn>
 
@@ -107,6 +109,16 @@ const Index = () => {
             >
               Quero Minha Prosperidade Agora!
             </Button>
+          </FadeIn>
+
+          {/* Texto de Destaque Amarelo (Reposicionado) */}
+          <FadeIn delay={0.55}>
+            <div className="max-w-3xl mx-auto mb-12 py-8 border-y border-gold/30">
+              <p className="text-gold text-xl md:text-2xl font-bold leading-relaxed italic">
+                Você ora, trabalha e tem fé, mas o dinheiro nunca sobra. <br className="hidden md:block" />
+                Talvez o problema não seja a sua fé, e sim os códigos espirituais que nunca te ensinaram.
+              </p>
+            </div>
           </FadeIn>
 
           {/* Imagem da Bíblia Aberta (Invertida) */}
