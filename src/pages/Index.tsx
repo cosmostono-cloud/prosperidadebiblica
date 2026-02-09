@@ -463,7 +463,7 @@ const Index = () => {
                   </div>
                   <div className="mt-10 pt-8 border-t border-gray-100">
                     <p className="text-xl md:text-2xl font-black text-gold tracking-tight leading-tight">
-                      Milhares de pessoas já passaram pelos meus conteúdos.
+                      Milhares de pessoas já passaram pelos nossos conteúdos.
                     </p>
                   </div>
                 </FadeIn>
