@@ -7,6 +7,7 @@ import Autoplay from "embla-carousel-autoplay";
 import { CheckCircle, XCircle, BookOpen, ShieldCheck, Mail, Copyright, Gift, Star, Zap, Clock, Users, UserX, Sparkles } from "lucide-react";
 import { MadeWithDyad } from "@/components/made-with-dyad";
 import FadeIn from "@/components/FadeIn";
+import WhatsAppButton from "@/components/WhatsAppButton";
 
 const Index = () => {
   const plugin = React.useRef(
@@ -26,6 +27,8 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-white text-gray-800 font-sans overflow-x-hidden">
+      <WhatsAppButton />
+      
       {/* HERO SECTION */}
       <section className="bg-darkBlue1 text-white py-16 md:py-24 px-4 rounded-b-[3rem] shadow-2xl">
         <div className="container mx-auto max-w-4xl text-center">
