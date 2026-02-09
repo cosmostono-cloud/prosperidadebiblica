@@ -41,27 +41,20 @@ const Index = () => {
             </p>
           </FadeIn>
 
-          <FadeIn delay={0.4}>
-            <Button
-              onClick={scrollToCta}
-              className="bg-gold text-darkBlue1 hover:bg-yellow-400 text-lg md:text-2xl font-bold py-6 px-8 md:py-8 md:px-12 rounded-full shadow-2xl transition-all duration-300 transform hover:scale-105 w-full md:w-auto animate-pulse-subtle whitespace-normal h-auto mb-12"
-            >
-              Quero Minha Prosperidade Agora!
-            </Button>
-          </FadeIn>
-
-          <FadeIn delay={0.6} direction="up">
-            <div className="relative mb-10">
+          {/* Imagem do homem segurando a bíblia (Primeira imagem) */}
+          <FadeIn delay={0.3} direction="up">
+            <div className="relative mb-12">
               <img
-                src="/pb-5.png"
-                alt="Desafio da Prosperidade Bíblica"
-                className="w-full max-w-xl mx-auto rounded-3xl shadow-2xl border-4 border-gold/20"
+                src="/biblia-sagrada.png"
+                alt="Sabedoria Bíblica"
+                className="w-full max-w-lg mx-auto animate-glow-gold"
               />
             </div>
           </FadeIn>
 
-          <FadeIn delay={0.8}>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center text-left max-w-2xl mx-auto">
+          {/* Lista de Benefícios */}
+          <FadeIn delay={0.4}>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center text-left max-w-2xl mx-auto mb-12">
               <div className="space-y-4">
                 <p className="flex items-center text-lg">
                   <CheckCircle className="text-gold mr-3 flex-shrink-0" size={24} />
@@ -84,6 +77,27 @@ const Index = () => {
               </div>
             </div>
           </FadeIn>
+
+          {/* Botão de Ação */}
+          <FadeIn delay={0.5}>
+            <Button
+              onClick={scrollToCta}
+              className="bg-gold text-darkBlue1 hover:bg-yellow-400 text-lg md:text-2xl font-bold py-6 px-8 md:py-8 md:px-12 rounded-full shadow-2xl transition-all duration-300 transform hover:scale-105 w-full md:w-auto animate-pulse-subtle whitespace-normal h-auto mb-12"
+            >
+              Quero Minha Prosperidade Agora!
+            </Button>
+          </FadeIn>
+
+          {/* Imagem do Desafio (Segunda imagem) */}
+          <FadeIn delay={0.6} direction="up">
+            <div className="relative mb-10">
+              <img
+                src="/pb-5.png"
+                alt="Desafio da Prosperidade Bíblica"
+                className="w-full max-w-xl mx-auto rounded-3xl shadow-2xl border-4 border-gold/20"
+              />
+            </div>
+          </FadeIn>
         </div>
       </section>
 
@@ -99,16 +113,6 @@ const Index = () => {
             </h2>
           </FadeIn>
 
-          <FadeIn delay={0.1}>
-            <div className="mb-12">
-              <img
-                src="/biblia-sagrada.png"
-                alt="Sabedoria Bíblica"
-                className="w-full max-w-lg mx-auto animate-glow-gold"
-              />
-            </div>
-          </FadeIn>
-          
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-left mb-16">
             <FadeIn delay={0.2} direction="right">
               <Card className="bg-darkBlue2 border-none shadow-xl rounded-3xl p-8 text-gray-100 h-full">
