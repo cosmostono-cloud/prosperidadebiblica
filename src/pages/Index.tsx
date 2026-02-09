@@ -458,7 +458,7 @@ const Index = () => {
                       Este estudo nasceu de anos de oração, reflexão e mergulho nas Escrituras, buscando compreender como os princípios divinos se aplicam à vida prática, especialmente na relação com dinheiro, provisão e propósito.
                     </p>
                     <p className="font-bold text-darkBlue1">
-                      Prosperidade bíblica não é acaso nem ganância, é alinhamento entre faith, consciência e ação.
+                      Prosperidade bíblica não é acaso nem ganância, é alinhamento entre fé, consciência e ação.
                     </p>
                   </div>
                   <div className="mt-10 pt-8 border-t border-gray-100">
@@ -548,7 +548,8 @@ const Index = () => {
                   <span className="text-gold text-8xl md:text-9xl font-black tracking-tighter drop-shadow-[0_0_15px_rgba(244,196,48,0.5)]">44</span>
                   <span className="text-gold text-3xl font-bold ml-1">,00</span>
                 </div>
-                <p className="text-gold/90 text-2xl md:text-3xl font-bold mt-2 tracking-tight">5x R$9,74</p>
+                <p className="text-white text-2xl md:text-3xl font-bold mt-2 tracking-tight">5x R$9,74</p>
+                <p className="text-white/70 text-lg font-medium">no cartão</p>
               </div>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-left mb-10 border-t border-white/10 pt-8">
