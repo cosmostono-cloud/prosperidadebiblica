@@ -492,9 +492,16 @@ const Index = () => {
       <section id="cta-section" className="bg-darkBlue1 text-white py-20 md:py-32 px-4 rounded-t-[4rem] shadow-2xl">
         <div className="container mx-auto max-w-4xl text-center">
           <FadeIn>
-            <h2 className="text-4xl md:text-6xl font-extrabold mb-10 leading-tight">
+            <h2 className="text-4xl md:text-6xl font-extrabold mb-6 leading-tight">
               Sua Jornada de <span className="text-gold">Sabedoria Financeira Bíblica</span>
             </h2>
+          </FadeIn>
+
+          <FadeIn delay={0.1}>
+            <p className="text-xl md:text-2xl text-gray-300 italic mb-10 font-serif">
+              “O Senhor te abençoe e te guarde… e te conceda paz.” <br />
+              <span className="text-gold font-bold text-lg not-italic">— Números 6:24–26</span>
+            </p>
           </FadeIn>
           
           <FadeIn delay={0.2}>
