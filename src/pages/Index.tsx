@@ -2,17 +2,22 @@ import React from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
+import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+import Autoplay from "embla-carousel-autoplay";
 import { CheckCircle, XCircle, BookOpen, ShieldCheck, Mail, Copyright, Gift, Star, Zap, Clock, Users, UserX, Sparkles } from "lucide-react";
 import { MadeWithDyad } from "@/components/made-with-dyad";
 import FadeIn from "@/components/FadeIn";
 
 const Index = () => {
+  const plugin = React.useRef(
+    Autoplay({ delay: 5000, stopOnInteraction: true })
+  );
+
   const scrollToCta = () => {
     document.getElementById("cta-section")?.scrollIntoView({ behavior: "smooth" });
   };
 
   const handlePurchase = () => {
-    // Rastreia o evento de conversão antes de redirecionar
     if (typeof window !== "undefined" && (window as any).fbq) {
       (window as any).fbq('track', 'InitiateCheckout');
     }
@@ -25,8 +30,8 @@ const Index = () => {
       <section className="bg-darkBlue1 text-white py-16 md:py-24 px-4 rounded-b-[3rem] shadow-2xl">
         <div className="container mx-auto max-w-4xl text-center">
           <FadeIn>
-            <h1 className="text-4xl md:text-6xl font-extrabold leading-tight mb-6 text-white drop-shadow-sm">
-              Desafio da Prosperidade Bíblica <span className="text-gold animate-pulse drop-shadow-[0_0_15px_rgba(244,196,48,0.8)]">em 21 Dias</span>
+            <h1 className="text-4xl md:text-6xl font-extrabold leading-tight mb-6 drop-shadow-sm">
+              <span className="text-gold">Desafio da Prosperidade Bíblica</span> <span className="text-white animate-pulse drop-shadow-[0_0_15px_rgba(255,255,255,0.8)]">em 21 Dias</span>
             </h1>
           </FadeIn>
           
@@ -36,18 +41,27 @@ const Index = () => {
             </p>
           </FadeIn>
 
-          <FadeIn delay={0.4} direction="up">
+          <FadeIn delay={0.4}>
+            <Button
+              onClick={scrollToCta}
+              className="bg-gold text-darkBlue1 hover:bg-yellow-400 text-lg md:text-2xl font-bold py-6 px-8 md:py-8 md:px-12 rounded-full shadow-2xl transition-all duration-300 transform hover:scale-105 w-full md:w-auto animate-pulse-subtle whitespace-normal h-auto mb-12"
+            >
+              Quero Minha Prosperidade Agora!
+            </Button>
+          </FadeIn>
+
+          <FadeIn delay={0.6} direction="up">
             <div className="relative mb-10">
               <img
-                src="/biblia-sagrada.png"
+                src="/pb-5.png"
                 alt="Desafio da Prosperidade Bíblica"
-                className="w-full max-w-xl mx-auto animate-glow-gold"
+                className="w-full max-w-xl mx-auto rounded-3xl shadow-2xl border-4 border-gold/20"
               />
             </div>
           </FadeIn>
 
-          <FadeIn delay={0.6}>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center mb-12 text-left max-w-2xl mx-auto">
+          <FadeIn delay={0.8}>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center text-left max-w-2xl mx-auto">
               <div className="space-y-4">
                 <p className="flex items-center text-lg">
                   <CheckCircle className="text-gold mr-3 flex-shrink-0" size={24} />
@@ -70,15 +84,6 @@ const Index = () => {
               </div>
             </div>
           </FadeIn>
-
-          <FadeIn delay={0.8}>
-            <Button
-              onClick={scrollToCta}
-              className="bg-gold text-darkBlue1 hover:bg-yellow-400 text-lg md:text-2xl font-bold py-6 px-8 md:py-8 md:px-12 rounded-full shadow-2xl transition-all duration-300 transform hover:scale-105 w-full md:w-auto animate-pulse-subtle whitespace-normal h-auto"
-            >
-              Quero Minha Prosperidade Agora!
-            </Button>
-          </FadeIn>
         </div>
       </section>
 
@@ -97,9 +102,9 @@ const Index = () => {
           <FadeIn delay={0.1}>
             <div className="mb-12">
               <img
-                src="/pb-5.png"
-                alt="Situações Financeiras"
-                className="w-full max-w-lg mx-auto rounded-3xl shadow-lg"
+                src="/biblia-sagrada.png"
+                alt="Sabedoria Bíblica"
+                className="w-full max-w-lg mx-auto animate-glow-gold"
               />
             </div>
           </FadeIn>
@@ -158,6 +163,44 @@ const Index = () => {
               <p className="text-2xl md:text-3xl text-darkBlue2 font-bold max-w-2xl mx-auto leading-snug">
                 Você não está sozinho(a). Existe um caminho bíblico para a sua transformação.
               </p>
+            </div>
+          </FadeIn>
+        </div>
+      </section>
+
+      {/* DEPOIMENTOS */}
+      <section className="bg-white py-20 px-4">
+        <div className="container mx-auto max-w-4xl text-center">
+          <FadeIn>
+            <h2 className="text-3xl md:text-5xl font-bold mb-12 text-darkBlue1">
+              O que dizem nossos alunos
+            </h2>
+          </FadeIn>
+          
+          <FadeIn delay={0.2}>
+            <div className="relative px-12">
+              <Carousel
+                plugins={[plugin.current]}
+                className="w-full max-w-xl mx-auto"
+                onMouseEnter={plugin.current.stop}
+                onMouseLeave={plugin.current.reset}
+              >
+                <CarouselContent>
+                  {[1, 2, 3].map((num) => (
+                    <CarouselItem key={num}>
+                      <div className="p-1">
+                        <img
+                          src={`/${num}.jpg`}
+                          alt={`Depoimento ${num}`}
+                          className="w-full h-auto rounded-2xl shadow-lg border border-gray-100"
+                        />
+                      </div>
+                    </CarouselItem>
+                  ))}
+                </CarouselContent>
+                <CarouselPrevious className="hidden md:flex -left-12 bg-gold text-darkBlue1 border-none hover:bg-yellow-400" />
+                <CarouselNext className="hidden md:flex -right-12 bg-gold text-darkBlue1 border-none hover:bg-yellow-400" />
+              </Carousel>
             </div>
           </FadeIn>
         </div>
@@ -232,7 +275,7 @@ const Index = () => {
               O Desafio da Prosperidade Bíblica
             </h2>
             <p className="text-xl md:text-2xl mb-10 font-light text-gray-200 max-w-3xl mx-auto">
-              Um método prático e transformador, projetado para te guiar passo a passo para fora da estagnação financeira.
+              Um método prático e transformador, projetado para te guiar passo a passo para fora da estagnação financeira, preparado por nós do Tô no Cosmos.
             </p>
           </FadeIn>
           
@@ -538,7 +581,9 @@ const Index = () => {
         <div className="container mx-auto max-w-4xl text-center space-y-8">
           <div className="flex justify-center items-center space-x-2 text-gold font-bold text-xl">
             <ShieldCheck size={24} />
-            <span>Prosperidade Bíblica</span>
+            <a href="https://tonocosmos.com.br/" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-400 transition-colors">
+              Tô no Cosmos
+            </a>
           </div>
           <p className="text-sm md:text-base leading-relaxed max-w-2xl mx-auto">
             Aviso Legal: Este produto não garante resultados financeiros imediatos. O sucesso depende da aplicação consistente dos princípios ensinados e do esforço individual.
