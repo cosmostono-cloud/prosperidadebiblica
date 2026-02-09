@@ -458,7 +458,7 @@ const Index = () => {
                       Este estudo nasceu de anos de oração, reflexão e mergulho nas Escrituras, buscando compreender como os princípios divinos se aplicam à vida prática, especialmente na relação com dinheiro, provisão e propósito.
                     </p>
                     <p className="font-bold text-darkBlue1">
-                      Prosperidade bíblica não é acaso nem ganância, é alinhamento entre fé, consciência e ação.
+                      Prosperidade bíblica não é acaso nem ganância, é alinhamento entre faith, consciência e ação.
                     </p>
                   </div>
                   <div className="mt-10 pt-8 border-t border-gray-100">
@@ -542,10 +542,13 @@ const Index = () => {
             <div className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-[3rem] p-8 md:p-12 mb-12 max-w-2xl mx-auto shadow-2xl relative overflow-hidden">
               <p className="text-gray-400 line-through text-2xl mb-2">De R$ 147,00</p>
               <p className="text-white text-xl mb-4 font-medium">Por apenas:</p>
-              <div className="flex items-center justify-center mb-8 animate-pulse-subtle">
-                <span className="text-gold text-4xl font-bold mr-2">R$</span>
-                <span className="text-gold text-8xl md:text-9xl font-black tracking-tighter drop-shadow-[0_0_15px_rgba(244,196,48,0.5)]">44</span>
-                <span className="text-gold text-3xl font-bold ml-1">,00</span>
+              <div className="flex flex-col items-center justify-center mb-8">
+                <div className="flex items-center justify-center animate-pulse-subtle">
+                  <span className="text-gold text-4xl font-bold mr-2">R$</span>
+                  <span className="text-gold text-8xl md:text-9xl font-black tracking-tighter drop-shadow-[0_0_15px_rgba(244,196,48,0.5)]">44</span>
+                  <span className="text-gold text-3xl font-bold ml-1">,00</span>
+                </div>
+                <p className="text-gold/90 text-2xl md:text-3xl font-bold mt-2 tracking-tight">5x R$9,74</p>
               </div>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-left mb-10 border-t border-white/10 pt-8">
