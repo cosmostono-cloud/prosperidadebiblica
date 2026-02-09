@@ -44,29 +44,8 @@ const Index = () => {
             </p>
           </FadeIn>
 
-          {/* Imagem do homem segurando a bíblia (Primeira imagem) */}
-          <FadeIn delay={0.3} direction="up">
-            <div className="relative mb-8">
-              <img
-                src="/biblia-sagrada.png"
-                alt="Sabedoria Bíblica"
-                className="w-full max-w-lg mx-auto animate-glow-gold"
-              />
-            </div>
-          </FadeIn>
-
-          {/* Texto de Destaque Amarelo */}
-          <FadeIn delay={0.35}>
-            <div className="max-w-3xl mx-auto mb-12 py-8 border-y border-gold/30">
-              <p className="text-gold text-xl md:text-2xl font-bold leading-relaxed italic">
-                Você ora, trabalha e tem fé, mas o dinheiro nunca sobra. <br className="hidden md:block" />
-                Talvez o problema não seja a sua fé, e sim os códigos espirituais que nunca te ensinaram.
-              </p>
-            </div>
-          </FadeIn>
-
           {/* Lista de Benefícios */}
-          <FadeIn delay={0.4}>
+          <FadeIn delay={0.3}>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4 items-start text-left max-w-3xl mx-auto mb-12">
               <div className="space-y-4">
                 <p className="flex items-center text-lg">
@@ -100,14 +79,38 @@ const Index = () => {
           </FadeIn>
 
           {/* Botão de Ação */}
-          <FadeIn delay={0.5}>
+          <FadeIn delay={0.4}>
             <Button
               onClick={scrollToCta}
-              className="bg-gold text-darkBlue1 hover:bg-yellow-400 text-lg md:text-2xl font-bold py-6 px-8 md:py-8 md:px-12 rounded-full shadow-2xl transition-all duration-300 transform hover:scale-105 w-full md:w-auto animate-pulse-subtle whitespace-normal h-auto mb-12"
+              className="bg-gold text-darkBlue1 hover:bg-yellow-400 text-lg md:text-2xl font-bold py-6 px-8 md:py-8 md:px-12 rounded-full shadow-2xl transition-all duration-300 transform hover:scale-105 w-full md:w-auto animate-pulse-subtle whitespace-normal h-auto mb-8"
             >
               Quero Minha Prosperidade Agora!
             </Button>
           </FadeIn>
+
+          {/* Imagem do homem segurando a bíblia com o texto na cintura */}
+          <FadeIn delay={0.5} direction="up" className="relative">
+            <div className="relative">
+              <img
+                src="/biblia-sagrada.png"
+                alt="Sabedoria Bíblica"
+                className="w-full max-w-lg mx-auto animate-glow-gold relative z-0"
+              />
+              
+              {/* Texto de Destaque Amarelo posicionado na "cintura" da imagem */}
+              <div className="absolute bottom-0 left-0 w-full z-10 transform translate-y-1/2">
+                <div className="max-w-3xl mx-auto py-6 md:py-8 border-y-2 border-gold/40 bg-darkBlue1/80 backdrop-blur-sm">
+                  <p className="text-gold text-xl md:text-2xl font-bold leading-relaxed italic px-4">
+                    Você ora, trabalha e tem fé, mas o dinheiro nunca sobra. <br className="hidden md:block" />
+                    Talvez o problema não seja a sua fé, e sim os códigos espirituais que nunca te ensinaram.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </FadeIn>
+
+          {/* Espaçador para compensar o texto absoluto */}
+          <div className="h-32 md:h-40"></div>
 
           {/* Imagem da Bíblia Aberta (Invertida) */}
           <FadeIn delay={0.6} direction="up">
