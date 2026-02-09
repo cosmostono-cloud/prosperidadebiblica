@@ -25,22 +25,22 @@ const Index = () => {
       <section className="bg-darkBlue1 text-white py-16 md:py-24 px-4 rounded-b-[3rem] shadow-2xl">
         <div className="container mx-auto max-w-4xl text-center">
           <FadeIn>
-            <h1 className="text-4xl md:text-6xl font-extrabold leading-tight mb-6 text-gold drop-shadow-sm">
-              Desafio da Prosperidade Bíblica em 21 Dias
+            <h1 className="text-4xl md:text-6xl font-extrabold leading-tight mb-6 text-white drop-shadow-sm">
+              Desafio da Prosperidade Bíblica <span className="text-gold animate-pulse drop-shadow-[0_0_15px_rgba(244,196,48,0.8)]">em 21 Dias</span>
             </h1>
           </FadeIn>
           
           <FadeIn delay={0.2}>
             <p className="text-xl md:text-2xl mb-10 font-light text-gray-100">
-              O método prático para sair da estagnação financeira e reconstruir sua vida com princípios bíblicos de abundância.
+              Descubra Como Transformar Sua Vida Financeira Com Princípios Bíblicos — Mesmo Sem Experiência.
             </p>
           </FadeIn>
 
           <FadeIn delay={0.4} direction="up">
             <div className="relative mb-10">
               <img
-                src="/pb-5.png"
-                alt="Desafio da Prosperidade Bíblica em 21 Dias"
+                src="/biblia-sagrada.png"
+                alt="Desafio da Prosperidade Bíblica"
                 className="w-full max-w-xl mx-auto animate-glow-gold"
               />
             </div>
@@ -89,9 +89,19 @@ const Index = () => {
         
         <div className="container mx-auto max-w-4xl text-center relative z-10">
           <FadeIn>
-            <h2 className="text-3xl md:text-5xl font-bold mb-12 text-darkBlue1 leading-tight">
+            <h2 className="text-3xl md:text-5xl font-bold mb-8 text-darkBlue1 leading-tight">
               Você se identifica com alguma destas situações?
             </h2>
+          </FadeIn>
+
+          <FadeIn delay={0.1}>
+            <div className="mb-12">
+              <img
+                src="/pb-5.png"
+                alt="Situações Financeiras"
+                className="w-full max-w-lg mx-auto rounded-3xl shadow-lg"
+              />
+            </div>
           </FadeIn>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-left mb-16">
