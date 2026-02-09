@@ -39,8 +39,8 @@ const Index = () => {
           </FadeIn>
           
           <FadeIn delay={0.2}>
-            <p className="text-xl md:text-2xl mb-10 font-light text-gray-100">
-              Descubra Como Transformar Sua Vida Financeira Com Princípios Bíblicos — Mesmo Sem Experiência.
+            <p className="text-xl md:text-2xl mb-10 font-light text-gray-100 max-w-3xl mx-auto">
+              Descubra os princípios escondidos nas Escrituras que desbloqueiam a prosperidade financeira sem culpa, sem misticismo vazio e sem se afastar de Deus.
             </p>
           </FadeIn>
 
@@ -57,25 +57,33 @@ const Index = () => {
 
           {/* Lista de Benefícios */}
           <FadeIn delay={0.4}>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center text-left max-w-2xl mx-auto mb-12">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4 items-start text-left max-w-3xl mx-auto mb-12">
               <div className="space-y-4">
                 <p className="flex items-center text-lg">
                   <CheckCircle className="text-gold mr-3 flex-shrink-0" size={24} />
-                  Descubra a liberdade financeira
+                  Pare de repetir ciclos financeiros
                 </p>
                 <p className="flex items-center text-lg">
                   <CheckCircle className="text-gold mr-3 flex-shrink-0" size={24} />
-                  Organize suas finanças com sabedoria
+                  Aprenda a orar por prosperidade de forma alinhada à Bíblia
+                </p>
+                <p className="flex items-center text-lg">
+                  <CheckCircle className="text-gold mr-3 flex-shrink-0" size={24} />
+                  Quebre crenças de escassez
                 </p>
               </div>
               <div className="space-y-4">
                 <p className="flex items-center text-lg">
                   <CheckCircle className="text-gold mr-3 flex-shrink-0" size={24} />
-                  Transforme sua mentalidade
+                  Ative mentalidade abundante
                 </p>
                 <p className="flex items-center text-lg">
                   <CheckCircle className="text-gold mr-3 flex-shrink-0" size={24} />
-                  Viva uma vida de propósito
+                  Enxergue o dinheiro como ferramenta divina
+                </p>
+                <p className="flex items-center text-lg">
+                  <CheckCircle className="text-gold mr-3 flex-shrink-0" size={24} />
+                  Crie estabilidade e crescimento
                 </p>
               </div>
             </div>
