@@ -463,13 +463,11 @@ const Index = () => {
                     <p className="font-bold text-darkBlue1">
                       Prosperidade bíblica não é acaso nem ganância, é alinhamento entre fé, consciência e ação.
                     </p>
-                    <p>
-                      Cada lição foi criada para ajudar você a romper ciclos de escassez e caminhar com mais paz, clareza e estabilidade.
-                    </p>
                   </div>
-                  <div className="mt-8 flex items-center gap-3 text-darkBlue1 font-bold bg-gold/10 p-4 rounded-xl border-l-4 border-gold">
-                    <Sparkles className="text-gold flex-shrink-0" size={24} />
-                    <p className="text-sm md:text-base">Milhares de pessoas já passaram pelos meus conteúdos.</p>
+                  <div className="mt-10 pt-8 border-t border-gray-100">
+                    <p className="text-xl md:text-2xl font-black text-gold tracking-tight leading-tight">
+                      Milhares de pessoas já passaram pelos meus conteúdos.
+                    </p>
                   </div>
                 </FadeIn>
               </div>
