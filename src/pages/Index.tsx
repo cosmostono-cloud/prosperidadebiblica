@@ -46,12 +46,22 @@ const Index = () => {
 
           {/* Imagem do homem segurando a bíblia (Primeira imagem) */}
           <FadeIn delay={0.3} direction="up">
-            <div className="relative mb-12">
+            <div className="relative mb-8">
               <img
                 src="/biblia-sagrada.png"
                 alt="Sabedoria Bíblica"
                 className="w-full max-w-lg mx-auto animate-glow-gold"
               />
+            </div>
+          </FadeIn>
+
+          {/* Texto de Destaque Amarelo */}
+          <FadeIn delay={0.35}>
+            <div className="max-w-3xl mx-auto mb-12 py-8 border-y border-gold/30">
+              <p className="text-gold text-xl md:text-2xl font-bold leading-relaxed italic">
+                Você ora, trabalha e tem fé, mas o dinheiro nunca sobra. <br className="hidden md:block" />
+                Talvez o problema não seja a sua fé, e sim os códigos espirituais que nunca te ensinaram.
+              </p>
             </div>
           </FadeIn>
 
