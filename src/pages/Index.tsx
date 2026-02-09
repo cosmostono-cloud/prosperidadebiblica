@@ -173,18 +173,21 @@ const Index = () => {
       </section>
 
       {/* DEPOIMENTOS */}
-      <section className="bg-white py-20 px-4">
+      <section className="bg-darkBlue2 py-20 px-4 rounded-[3rem] my-12 shadow-2xl">
         <div className="container mx-auto max-w-4xl text-center">
           <FadeIn>
-            <h2 className="text-3xl md:text-5xl font-bold mb-12 text-darkBlue1">
+            <h2 className="text-3xl md:text-5xl font-bold mb-12 text-white">
               O que dizem nossos alunos
             </h2>
           </FadeIn>
           
           <FadeIn delay={0.2}>
-            <div className="relative px-0 md:px-12">
+            <div className="relative px-4 md:px-16">
               <Carousel
                 plugins={[plugin.current]}
+                opts={{
+                  loop: true,
+                }}
                 className="w-full max-w-2xl mx-auto"
                 onMouseEnter={plugin.current.stop}
                 onMouseLeave={plugin.current.reset}
@@ -196,14 +199,14 @@ const Index = () => {
                         <img
                           src={`/${num}.jpg`}
                           alt={`Depoimento ${num}`}
-                          className="w-full h-auto rounded-2xl shadow-lg border border-gray-100"
+                          className="w-full h-auto rounded-2xl shadow-2xl border border-white/10"
                         />
                       </div>
                     </CarouselItem>
                   ))}
                 </CarouselContent>
-                <CarouselPrevious className="hidden md:flex -left-12 bg-gold text-darkBlue1 border-none hover:bg-yellow-400" />
-                <CarouselNext className="hidden md:flex -right-12 bg-gold text-darkBlue1 border-none hover:bg-yellow-400" />
+                <CarouselPrevious className="flex -left-4 md:-left-12 bg-gold text-darkBlue1 border-none hover:bg-yellow-400 shadow-lg" />
+                <CarouselNext className="flex -right-4 md:-right-12 bg-gold text-darkBlue1 border-none hover:bg-yellow-400 shadow-lg" />
               </Carousel>
             </div>
           </FadeIn>
