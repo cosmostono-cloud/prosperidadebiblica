@@ -182,10 +182,10 @@ const Index = () => {
           </FadeIn>
           
           <FadeIn delay={0.2}>
-            <div className="relative px-12">
+            <div className="relative px-0 md:px-12">
               <Carousel
                 plugins={[plugin.current]}
-                className="w-full max-w-xl mx-auto"
+                className="w-full max-w-2xl mx-auto"
                 onMouseEnter={plugin.current.stop}
                 onMouseLeave={plugin.current.reset}
               >
