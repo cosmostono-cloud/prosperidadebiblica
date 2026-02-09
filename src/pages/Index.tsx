@@ -427,9 +427,6 @@ const Index = () => {
 
         <FadeIn>
           <div className="w-full">
-            <div className="container mx-auto max-w-4xl text-center mb-10">
-              <h3 className="text-2xl md:text-4xl font-bold text-darkBlue1">Confira o poder do desafio na prática:</h3>
-            </div>
             <img
               src="https://tonocosmos.com.br/wp-content/uploads/2025/04/3-pb.jpg"
               alt="Poder do Desafio"
