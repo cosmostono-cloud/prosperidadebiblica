@@ -440,36 +440,36 @@ const Index = () => {
       </section>
 
       {/* BLOCO DE AUTORIDADE */}
-      <section className="bg-gray-50 py-20 md:py-28 px-4">
+      <section className="bg-gray-50 py-12 md:py-16 px-4">
         <div className="container mx-auto max-w-5xl">
-          <div className="bg-white rounded-[3rem] shadow-2xl overflow-hidden border border-gray-100">
+          <div className="bg-white rounded-[2.5rem] shadow-xl overflow-hidden border border-gray-100">
             <div className="flex flex-col md:flex-row items-center">
-              <div className="md:w-2/5 bg-darkBlue1 p-12 flex items-center justify-center">
+              <div className="md:w-1/2 p-0">
                 <FadeIn direction="right">
-                  <div className="relative">
-                    <div className="w-48 h-48 md:w-64 md:h-64 rounded-full bg-gold/20 flex items-center justify-center border-4 border-gold/50 shadow-inner">
-                      <Award className="text-gold w-24 h-24 md:w-32 md:h-32" />
-                    </div>
-                    <div className="absolute -bottom-4 -right-4 bg-gold text-darkBlue1 p-4 rounded-2xl shadow-xl font-bold">
-                      Especialista
-                    </div>
-                  </div>
+                  <img
+                    src="/10pb.png"
+                    alt="Origem Espiritual"
+                    className="w-full h-full object-cover max-h-[400px] md:max-h-none"
+                  />
                 </FadeIn>
               </div>
-              <div className="md:w-3/5 p-10 md:p-16 text-left">
+              <div className="md:w-1/2 p-8 md:p-12 text-left">
                 <FadeIn direction="left">
-                  <h2 className="text-3xl md:text-4xl font-bold mb-8 text-darkBlue1">Quem está por trás deste estudo</h2>
-                  <div className="space-y-6 text-lg md:text-xl text-gray-700 leading-relaxed">
+                  <h2 className="text-2xl md:text-3xl font-bold mb-6 text-darkBlue1 leading-tight">A Origem Espiritual Deste Ensinamento</h2>
+                  <div className="space-y-4 text-base md:text-lg text-gray-700 leading-relaxed">
                     <p>
-                      Há anos estudo prosperidade espiritual, Bíblia e leis mentais aplicadas à fé, ajudando pessoas a enxergarem o dinheiro de forma diferente, sem culpa, sem medo e sem conflito espiritual.
+                      Este estudo nasceu de anos de oração, reflexão e mergulho nas Escrituras, buscando compreender como os princípios divinos se aplicam à vida prática, especialmente na relação com dinheiro, provisão e propósito.
+                    </p>
+                    <p className="font-bold text-darkBlue1">
+                      Prosperidade bíblica não é acaso nem ganância, é alinhamento entre fé, consciência e ação.
                     </p>
                     <p>
-                      O <span className="text-darkBlue1 font-bold">Prosperidade Bíblica</span> nasceu da necessidade de unir Escritura, consciência e vida prática.
+                      Cada lição foi criada para ajudar você a romper ciclos de escassez e caminhar com mais paz, clareza e estabilidade.
                     </p>
                   </div>
-                  <div className="mt-10 flex items-center gap-4 text-darkBlue1 font-bold bg-gold/10 p-6 rounded-2xl border-l-4 border-gold">
-                    <Sparkles className="text-gold flex-shrink-0" size={28} />
-                    <p className="text-lg md:text-xl">Milhares de pessoas já passaram pelos meus conteúdos.</p>
+                  <div className="mt-8 flex items-center gap-3 text-darkBlue1 font-bold bg-gold/10 p-4 rounded-xl border-l-4 border-gold">
+                    <Sparkles className="text-gold flex-shrink-0" size={24} />
+                    <p className="text-sm md:text-base">Milhares de pessoas já passaram pelos meus conteúdos.</p>
                   </div>
                 </FadeIn>
               </div>
@@ -574,7 +574,7 @@ const Index = () => {
 
               <div className="mb-10 bg-gold/10 py-4 px-6 rounded-2xl border border-gold/20">
                 <p className="text-gold font-bold text-lg flex items-center justify-center">
-                  <Sparkles className="mr-2" size={20} />
+                  <span className="mr-2">✨</span>
                   + Bônus Surpresa Exclusivo para quem adquirir agora
                 </p>
               </div>
