@@ -88,12 +88,12 @@ const Index = () => {
             </Button>
           </FadeIn>
 
-          {/* Imagem do Desafio (Segunda imagem) */}
+          {/* Imagem da Bíblia Aberta (Invertida) */}
           <FadeIn delay={0.6} direction="up">
             <div className="relative mb-10">
               <img
-                src="/pb-5.png"
-                alt="Desafio da Prosperidade Bíblica"
+                src="/pb-8.png"
+                alt="Sabedoria Bíblica"
                 className="w-full max-w-xl mx-auto rounded-3xl shadow-2xl border-4 border-gold/20"
               />
             </div>
@@ -340,8 +340,8 @@ const Index = () => {
           <FadeIn>
             <div className="mb-16">
               <img
-                src="/pb-8.png"
-                alt="Sabedoria Bíblica"
+                src="/pb-5.png"
+                alt="Desafio da Prosperidade Bíblica"
                 className="w-full h-auto rounded-[3rem] shadow-2xl mb-12"
               />
             </div>
@@ -514,7 +514,7 @@ const Index = () => {
               </div>
               <div className="flex items-center">
                 <CheckCircle className="mr-2 text-gold" size={20} />
-                <span>Acesso Imediato por E-mail</span>
+                <span>Acesso Imediato</span>
               </div>
             </div>
           </FadeIn>
