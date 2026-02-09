@@ -4,7 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 import Autoplay from "embla-carousel-autoplay";
-import { CheckCircle, XCircle, BookOpen, ShieldCheck, Mail, Copyright, Gift, Star, Zap, Clock, Users, UserX, Sparkles, Quote } from "lucide-react";
+import { CheckCircle, XCircle, BookOpen, ShieldCheck, Mail, Copyright, Gift, Star, Zap, Clock, Users, UserX, Sparkles, Quote, Award } from "lucide-react";
 import { MadeWithDyad } from "@/components/made-with-dyad";
 import FadeIn from "@/components/FadeIn";
 import WhatsAppButton from "@/components/WhatsAppButton";
@@ -439,6 +439,45 @@ const Index = () => {
         </FadeIn>
       </section>
 
+      {/* BLOCO DE AUTORIDADE */}
+      <section className="bg-gray-50 py-20 md:py-28 px-4">
+        <div className="container mx-auto max-w-5xl">
+          <div className="bg-white rounded-[3rem] shadow-2xl overflow-hidden border border-gray-100">
+            <div className="flex flex-col md:flex-row items-center">
+              <div className="md:w-2/5 bg-darkBlue1 p-12 flex items-center justify-center">
+                <FadeIn direction="right">
+                  <div className="relative">
+                    <div className="w-48 h-48 md:w-64 md:h-64 rounded-full bg-gold/20 flex items-center justify-center border-4 border-gold/50 shadow-inner">
+                      <Award className="text-gold w-24 h-24 md:w-32 md:h-32" />
+                    </div>
+                    <div className="absolute -bottom-4 -right-4 bg-gold text-darkBlue1 p-4 rounded-2xl shadow-xl font-bold">
+                      Especialista
+                    </div>
+                  </div>
+                </FadeIn>
+              </div>
+              <div className="md:w-3/5 p-10 md:p-16 text-left">
+                <FadeIn direction="left">
+                  <h2 className="text-3xl md:text-4xl font-bold mb-8 text-darkBlue1">Quem está por trás deste estudo</h2>
+                  <div className="space-y-6 text-lg md:text-xl text-gray-700 leading-relaxed">
+                    <p>
+                      Há anos estudo prosperidade espiritual, Bíblia e leis mentais aplicadas à fé, ajudando pessoas a enxergarem o dinheiro de forma diferente, sem culpa, sem medo e sem conflito espiritual.
+                    </p>
+                    <p>
+                      O <span className="text-darkBlue1 font-bold">Prosperidade Bíblica</span> nasceu da necessidade de unir Escritura, consciência e vida prática.
+                    </p>
+                  </div>
+                  <div className="mt-10 flex items-center gap-4 text-darkBlue1 font-bold bg-gold/10 p-6 rounded-2xl border-l-4 border-gold">
+                    <Sparkles className="text-gold flex-shrink-0" size={28} />
+                    <p className="text-lg md:text-xl">Milhares de pessoas já passaram pelos meus conteúdos.</p>
+                  </div>
+                </FadeIn>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* SEÇÃO DE BÔNUS */}
       <section className="bg-darkBlue1 py-20 md:py-28 px-4 relative overflow-hidden">
         <div className="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]"></div>
@@ -480,9 +519,9 @@ const Index = () => {
           <FadeIn delay={0.6}>
             <Button
               onClick={scrollToCta}
-              className="bg-gold text-darkBlue1 hover:bg-yellow-400 text-lg md:text-xl font-bold py-6 px-8 rounded-full shadow-xl transition-all transform hover:scale-105 w-full md:w-auto h-auto"
+              className="bg-gold text-darkBlue1 hover:bg-yellow-400 text-lg md:text-xl font-bold py-6 px-8 rounded-full shadow-xl transition-all transform hover:scale-105 w-full md:w-auto h-auto whitespace-normal"
             >
-              Quero Meus Bônus Agora!
+              Quero destravar minha prosperidade com base na Bíblia
             </Button>
           </FadeIn>
         </div>
