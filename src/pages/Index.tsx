@@ -36,10 +36,10 @@ const Index = () => {
         
         <div className="container mx-auto max-w-4xl text-center relative z-10">
           <FadeIn>
-            <h1 className="text-[1.75rem] sm:text-4xl md:text-7xl font-black leading-[1.1] mb-8 tracking-tight">
+            <h1 className="text-[1.5rem] sm:text-4xl md:text-7xl font-black leading-[1.1] mb-8 tracking-tight text-balance">
               <span className="text-gold block drop-shadow-[0_2px_10px_rgba(244,196,48,0.3)]">DESAFIO DA</span>
-              <span className="text-gold block drop-shadow-[0_2px_10px_rgba(244,196,48,0.3)] break-words">PROSPERIDADE BÍBLICA</span>
-              <span className="text-white inline-block mt-2 px-6 py-1 bg-gold/20 rounded-xl border border-gold/30 animate-pulse shadow-[0_0_20px_rgba(255,255,255,0.2)] text-lg sm:text-2xl">EM 21 DIAS</span>
+              <span className="text-gold block drop-shadow-[0_2px_10px_rgba(244,196,48,0.3)]">PROSPERIDADE BÍBLICA</span>
+              <span className="text-white inline-block mt-2 px-4 py-1 bg-gold/20 rounded-xl border border-gold/30 animate-pulse shadow-[0_0_20px_rgba(255,255,255,0.2)] text-base sm:text-2xl">EM 21 DIAS</span>
             </h1>
           </FadeIn>
           
@@ -463,7 +463,7 @@ const Index = () => {
                       Este estudo nasceu de anos de oração, reflexão e mergulho nas Escrituras, buscando compreender como os princípios divinos se aplicam à vida prática, especialmente na relação com dinheiro, provisão e propósito.
                     </p>
                     <p className="font-bold text-darkBlue1">
-                      Prosperidade bíblica não é acaso nem ganância, é alinhamento entre fé, consciência e action.
+                      Prosperidade bíblica não é acaso nem ganância, é alinhamento entre fé, consciência e ação.
                     </p>
                   </div>
                   <div className="mt-10 pt-8 border-t border-gray-100">
