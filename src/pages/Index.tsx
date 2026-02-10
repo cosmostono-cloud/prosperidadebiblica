@@ -8,6 +8,7 @@ import { CheckCircle, XCircle, BookOpen, ShieldCheck, Mail, Copyright, Gift, Sta
 import { MadeWithDyad } from "@/components/made-with-dyad";
 import FadeIn from "@/components/FadeIn";
 import WhatsAppButton from "@/components/WhatsAppButton";
+import BackgroundParticles from "@/components/BackgroundParticles";
 
 const Index = () => {
   const plugin = React.useRef(
@@ -30,8 +31,10 @@ const Index = () => {
       <WhatsAppButton />
       
       {/* HERO SECTION */}
-      <section className="bg-darkBlue1 text-white py-16 md:py-24 px-4 rounded-b-[3rem] shadow-2xl">
-        <div className="container mx-auto max-w-4xl text-center">
+      <section className="bg-darkBlue1 text-white py-16 md:py-24 px-4 rounded-b-[3rem] shadow-2xl relative overflow-hidden">
+        <BackgroundParticles />
+        
+        <div className="container mx-auto max-w-4xl text-center relative z-10">
           <FadeIn>
             <h1 className="text-4xl md:text-6xl font-extrabold leading-tight mb-6 drop-shadow-sm">
               <span className="text-gold">Desafio da Prosperidade Bíblica</span> <span className="text-white animate-pulse drop-shadow-[0_0_15px_rgba(255,255,255,0.8)]">em 21 Dias</span>
