@@ -36,8 +36,10 @@ const Index = () => {
         
         <div className="container mx-auto max-w-4xl text-center relative z-10">
           <FadeIn>
-            <h1 className="text-4xl md:text-6xl font-extrabold leading-tight mb-6 drop-shadow-sm">
-              <span className="text-gold">Desafio da Prosperidade Bíblica</span> <span className="text-white animate-pulse drop-shadow-[0_0_15px_rgba(255,255,255,0.8)]">em 21 Dias</span>
+            <h1 className="text-4xl md:text-7xl font-black leading-[1.1] mb-8 tracking-tight">
+              <span className="text-gold block drop-shadow-[0_2px_10px_rgba(244,196,48,0.3)]">DESAFIO DA</span>
+              <span className="text-gold block drop-shadow-[0_2px_10px_rgba(244,196,48,0.3)]">PROSPERIDADE BÍBLICA</span>
+              <span className="text-white inline-block mt-2 px-6 py-1 bg-gold/20 rounded-xl border border-gold/30 animate-pulse shadow-[0_0_20px_rgba(255,255,255,0.2)]">EM 21 DIAS</span>
             </h1>
           </FadeIn>
           
@@ -526,8 +528,10 @@ const Index = () => {
       </section>
 
       {/* CTA PRINCIPAL COM PREÇO */}
-      <section id="cta-section" className="bg-darkBlue1 text-white py-20 md:py-32 px-4 rounded-t-[4rem] shadow-2xl">
-        <div className="container mx-auto max-w-4xl text-center">
+      <section id="cta-section" className="bg-darkBlue1 text-white py-20 md:py-32 px-4 rounded-t-[4rem] shadow-2xl relative overflow-hidden">
+        <BackgroundParticles />
+        
+        <div className="container mx-auto max-w-4xl text-center relative z-10">
           <FadeIn>
             <h2 className="text-4xl md:text-6xl font-extrabold mb-6 leading-tight">
               Sua Jornada de <span className="text-gold">Sabedoria Financeira Bíblica</span>
