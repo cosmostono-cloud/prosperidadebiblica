@@ -552,10 +552,10 @@ const Index = () => {
               <div className="flex flex-col items-center justify-center mb-8">
                 <div className="flex items-center justify-center animate-pulse-subtle">
                   <span className="text-gold text-4xl font-bold mr-2">R$</span>
-                  <span className="text-gold text-8xl md:text-9xl font-black tracking-tighter drop-shadow-[0_0_15px_rgba(244,196,48,0.5)]">44</span>
+                  <span className="text-gold text-8xl md:text-9xl font-black tracking-tighter drop-shadow-[0_0_15px_rgba(244,196,48,0.5)]">17</span>
                   <span className="text-gold text-3xl font-bold ml-1">,00</span>
                 </div>
-                <p className="text-white text-2xl md:text-3xl font-bold mt-2 tracking-tight">5x R$9,74</p>
+                <p className="text-white text-2xl md:text-3xl font-bold mt-2 tracking-tight">3x R$6,07</p>
                 <p className="text-white/70 text-lg font-medium">no cartão</p>
               </div>
 
@@ -618,7 +618,7 @@ const Index = () => {
               <ShieldCheck className="text-gold mx-auto mb-8" size={80} />
               <h2 className="text-3xl md:text-5xl font-bold mb-8">Risco Zero: Garantia de 7 Dias</h2>
               <p className="text-xl text-gray-200 leading-relaxed mb-10">
-                Temos plena confiança no método. Se em 7 dias você não sentir que o conteúdo é para você, devolvemos 100% do seu investimento. Sem perguntas, sem burocracia.
+                Temos plena confiança no método. Se em 7 dias você não sentir que o conteúdo é para você, devolvemos 100% do seu investment. Sem perguntas, sem burocracia.
               </p>
               <div className="inline-flex items-center bg-white/10 px-8 py-4 rounded-full border border-white/20">
                 <span className="text-gold font-bold text-lg">Sua satisfação é nossa prioridade</span>
